@@ -1,0 +1,5 @@
+# jekyll sticks its generate files here
+_site/
+
+# jekyll uses this to keep track of things
+.jekyll-metadata
