@@ -1,4 +1,4 @@
-#### A Blog with Jekyll
+# A Blog with Jekyll
 
 Jekyll is static site generator. It lets you use templates and layouts like
 you might for a database-backed web app, but it processes those templates into
