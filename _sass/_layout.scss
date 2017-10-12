@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    margin: 0.4em 0;
+}
+
+h1 + p, h2 + p, h3 + p {
+    margin-top: 0;
+}
+
+main {
+    margin: auto;
+    max-width: 580px;
+    position: relative;
+}
+
+header {
+    text-align: right;
+
+    h1 {
+        line-height: 1;
+        margin: 0.1em 0;
+    }
+
+    padding-right: 24px;
+
+    position: absolute;
+    left: -240px;
+    top: 40px;
+}
+
+.post-header {
+    margin: 2.0em 0;
+}

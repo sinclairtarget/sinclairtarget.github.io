@@ -5,27 +5,34 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
   <body>
-    <!-- navigation -->
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
-
     <!-- content -->
-    <div class="container">
+    <main>
+      <header>
+        <h1><code>0b10</code></h1>
+        <p>Two-Bit History</p>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Data Formats</a>
+            </li>
+            <li>
+              <a href="#">Databases</a>
+            </li>
+            <li>
+              <a href="#">Unix</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       {{ content }}
-
-    </div>
+    </main>
 
     <!-- footer -->
     <footer>
-      <ul>
-        <li><a href="https://github.com/sinclairtarget/sinclairtarget.github.io">GitHub Repository</a></li>
-      </ul>
     </footer>
   </body>
 </html>

@@ -1,0 +1,58 @@
+---
+---
+
+@import 'colors';
+@import 'fonts';
+@import 'layout';
+
+html, body {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'AdobeGaramondRegular', serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+pre {
+    background-color: $pre-background-color;
+    border: 1px solid $pre-border-color;
+    border-radius: 5px;
+    padding: 12px;
+    overflow: scroll;
+    margin: 1.8em 0;
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+
+em {
+    font-family: 'AdobeGaramondItalic', serif;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Make sure that superscript (e.g. for footnotes) doesn't mess with line
+// height. We just lower the superscript a tad.
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    border-right: 1px solid black;
+
+    ul {
+        list-style: none;
+    }
+}
