@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Most Important Database You've Never Heard Of
+title: The Lineage of Man
 ---
 I've always found man pages fascinating. Formatted as strangely as they are and
 accessible primarily through the terminal, they have always felt to me like
@@ -24,7 +24,6 @@ creating Unix, to write some. The result was the [first
 edition](https://www.bell-labs.com/usr/dmr/www/1stEdman.html) of the _Unix
 Programmer's Manual_.
 
-## The Programmer's Manual
 The first edition of the _Unix Programmer's Manual_ consisted of (physical!)
 pages collected together in a single binder. It documented only 61 different
 commands, along with a couple dozen system calls and a few library routines.
@@ -41,7 +40,6 @@ document. Thompson and Ritchie could not have known that they were establishing
 a tradition that would survive for decades and decades, but that is what they
 did.
 
-### Speculation
 McIlroy later speculated about why the man page format has survived as long as
 it has. In a technical report about the conceptual development of Unix, he
 noted that the original man pages were written in a "terse, yet informal, prose
