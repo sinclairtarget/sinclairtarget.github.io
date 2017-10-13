@@ -33,7 +33,7 @@ em {
 }
 
 a {
-    text-decoration: none;
+    color: $link-color;
 
     &:hover {
         text-decoration: underline;
@@ -49,7 +49,7 @@ sup {
 }
 
 header {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-right: 1px solid black;
 
     ul {
