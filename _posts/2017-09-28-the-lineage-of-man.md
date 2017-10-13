@@ -18,7 +18,7 @@ The story of `man` is inextricably tied to the story of Unix. The very first
 version of Unix, completed in 1971 but only available internally at Bell Labs,
 did not provide a `man` command. But Douglas McIlroy, who at the time was head
 of the Computing Techniques Research Department and managed the Unix project,
-insisted that some kind of documentation be made available.[^n] He pushed Ken
+insisted that some kind of documentation be made available.[^1] He pushed Ken
 Thompson and Dennis Ritchie, the two programmers commonly credited with
 creating Unix, to write some. The result was the [first
 edition](https://www.bell-labs.com/usr/dmr/www/1stEdman.html) of the _Unix
@@ -46,7 +46,7 @@ McIlroy later speculated about why the man page format has survived as long as
 it has. In a technical report about the conceptual development of Unix, he
 noted that the original man pages were written in a "terse, yet informal, prose
 style" that together with the alphabetical ordering of information "encouraged
-accurate on-line documentation."[^n] In a nod to an experience with man pages
+accurate on-line documentation."[^2] In a nod to an experience with man pages
 that all programmers have had at one time or another, he added that the man
 page format "was popular with initiates who needed to look up facts, albeit
 sometimes frustrating for beginners who didn't know what facts to look for."
@@ -214,6 +214,6 @@ are. In a field where rapid change is the norm, maybe some
 stability—particularly in a documentation system we all turn to in moments of
 ignorance and confusion—is a good thing.
 
-[^n]: https://truss.works/blog/2016/12/9/man-splained
+[^1]: https://truss.works/blog/2016/12/9/man-splained
 
-[^n]: http://www.cs.dartmouth.edu/~doug/reader.pdf
+[^2]: http://www.cs.dartmouth.edu/~doug/reader.pdf
