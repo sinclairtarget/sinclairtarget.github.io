@@ -23,16 +23,21 @@ main {
 
 header {
     text-align: right;
+    white-space: nowrap;
 
     h1 {
         line-height: 1;
         margin: 0.1em 0;
     }
 
+    ul {
+        padding: 0;
+    }
+
     padding-right: 24px;
 
     position: absolute;
-    left: -240px;
+    right: calc(100% + 48px);
     top: 40px;
 }
 
