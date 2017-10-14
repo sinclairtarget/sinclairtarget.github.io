@@ -5,7 +5,7 @@ title: The Lineage of Man
 I've always found man pages fascinating. Formatted as strangely as they are and
 accessible primarily through the terminal, they have always felt to me like
 relics of an ancient past. Some man pages probably _are_ ancient: I'd love to
-know how many times my man page for `cat` or say `tee` has been revised since
+know how many times the man page for `cat` or say `tee` has been revised since
 the early days of Unix, but I'm willing to bet it's not many. Man pages are
 mysterious—it's not obvious where they come from, where they live on your
 computer, or what kind of file they might be stored in—and yet it's hard to
@@ -28,16 +28,16 @@ The first edition of the _Unix Programmer's Manual_ consisted of (physical!)
 pages collected together in a single binder. It documented only 61 different
 commands, along with a couple dozen system calls and a few library routines.
 Though the `man` command itself was not to come until later, the first edition
-of the _Unix Programmer's Manual_ established many of the conventions man pages
-adhere to today, even in the absence of an official specification. The
+of the _Unix Programmer's Manual_ established many of the conventions that man
+pages adhere to today, even in the absence of an official specification. The
 documentation for each command included the well-known NAME, SYNOPSIS,
 DESCRIPTION, and SEE ALSO headings. Optional flags were enclosed in square
 brackets and meta-arguments (for example, "file" where a file path is expected)
 were underlined. The manual also established the canonical manual sections such
 as Section 1 for General Commands, Section 2 for System Calls, and so on; these
-sections were of course, at the time, simply sections of a very long printed
-document. Thompson and Ritchie could not have known that they were establishing
-a tradition that would survive for decades and decades, but that is what they
+sections were, at the time, simply sections of a very long printed document.
+Thompson and Ritchie could not have known that they were establishing a
+tradition that would survive for decades and decades, but that is what they
 did.
 
 McIlroy later speculated about why the man page format has survived as long as
@@ -58,13 +58,13 @@ of the _Unix Programmer's Manual_ was printed. It made the entire manual
 available "on-line", meaning interactively, which was seen as enormously
 useful. The `man` command has its own manual page in the second edition (this
 page is the original `man man`), which explains that `man` can be used to "run
-off a particular section of this manual." The term "run off" referred to the
-physical act of printing a document but also to the program used in the early
-Unix days to typeset documents, `roff`. The `roff` program had been used to
-typeset both the first and second editions of the _Unix Programmer's Manual_
-before they were printed, but it was now also used by `man` to process man
-pages before they were displayed. The man pages themselves were stored on every
-Unix system in a file format meant to be read by `roff`.
+off a particular section of this manual." Among the original Unix wizards, the
+term "run off" referred to the physical act of printing a document but also to
+the program they used to typeset documents, `roff`. The `roff` program had been
+used to typeset both the first and second editions of the _Unix Programmer's
+Manual_ before they were printed, but it was now also used by `man` to process
+man pages before they were displayed. The man pages themselves were stored on
+every Unix system in a file format meant to be read by `roff`.
 
 `roff` was the first in a long lineage of typesetting programs that have always
 been used to format man pages. Its own development can be traced back to a
@@ -74,9 +74,9 @@ spawned several successors including `nroff` (_en-roff_) and `troff`
 to terminals, while `troff` tackled the problem of printing using a CAT
 phototypesetter. (If you don't know what phototypesetting is, as I did not, I
 refer you to [this](https://vimeo.com/127605644) eminently watchable film.) All
-of these programs were based on a kind of markup language consisting of two
-letter commands inserted at the beginning of every line in a document. These
-commands could control such things as font size, text positioning, line
+of these programs were based on a kind of markup language consisting of
+two-letter commands inserted at the beginning of every line in a document.
+These commands could control such things as font size, text positioning, line
 spacing, and so on. Today, the most common implementation of the `roff` system
 is `groff`, a part of the GNU project.
 
@@ -179,8 +179,8 @@ it's unlikely that you will ever need something that would warrant dropping
 down to the `roff` macro level. If you're curious about what these Markdown
 files might look like, I've written [a few of my
 own](https://github.com/sinclairtarget/um/tree/02365bd0c0a229efb936b3d6234294e512e8a218/doc)
-to document a tool I created for keeping notes on how to use different command
-line utilities. NPM's
+to document a tool I created for keeping notes on how to use different
+command-line utilities. NPM's
 [documentation](https://github.com/npm/npm/blob/20589f4b028d3e8a617800ac6289d27f39e548e8/doc/cli/npm.md)
 is also written in Markdown and converted to a `roff` man format later, though
 they use a JavaScript package called
@@ -193,14 +193,14 @@ page _reads like every other man page that has ever been written_. Even though
 there is now so much flexibility in tooling, the man page conventions are as
 strong as ever. And you might be tempted to skip writing a man page
 altogether—after all, you probably have documentation on the web, or maybe you
-just want to rely on the `--help` flag—but you're forgoing the patina of
-respectability a man page can provide. The man page is an institution that
-doesn't seem likely to disappear or evolve soon, which is fascinating, because
-there are so many ways in which we could do man pages better. XML didn't come
-off well in my [last
-post](http://blog.sinclairtarget.com/the-rise-and-rise-of-json/), but it would
-be the perfect format here, and it would allow us to do something like query
-`man` about an option:
+just want to rely on the <span class="nobr">`--help`</span> flag—but you're
+forgoing the patina of respectability a man page can provide. The man page is
+an institution that doesn't seem likely to disappear or evolve soon, which is
+fascinating, because there are so many ways in which we could do man pages
+better. XML didn't come off well in my [last
+post]({{ site.baseurl }}{% link _posts/2017-09-21-the-rise-and-rise-of-json.md
+%}), but it would be the perfect format here, and it would allow us to do
+something like query `man` about an option:
 
 ```
 $ man grep -v

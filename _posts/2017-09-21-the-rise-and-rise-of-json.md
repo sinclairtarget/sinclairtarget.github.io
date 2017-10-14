@@ -18,11 +18,12 @@ with each other across the internet, odds are they do so using JSON. It has
 been adopted by all the big players: Of the ten most popular web APIs, a list
 consisting mostly of APIs offered by major companies like Google, Facebook, and
 Twitter, only one API exposes data in XML rather than JSON.[^1] Twitter, to
-take one example, supported XML until 2013, when it released a new API version
-that dropped XML in favor of using JSON exclusively. JSON has also been widely
-adopted by the programming rank and file: According to Stack Overflow, a
-question and answer site for programmers, more questions are now asked about
-JSON than about any other data interchange format.[^2]
+take an illustrative example from that list, supported XML until 2013, when it
+released a new version of its API that dropped XML in favor of using JSON
+exclusively. JSON has also been widely adopted by the programming rank and
+file: According to Stack Overflow, a question and answer site for programmers,
+more questions are now asked about JSON than about any other data interchange
+format.[^2]
 
 ![](/images/json.svg)
 
@@ -32,16 +33,16 @@ requires a permission from the user, they do so in their app's manifest, which
 is written in XML. XML also isn't the only alternative to JSON—some people now
 use technologies like YAML or Google's Protocol Buffers. But these are nowhere
 near as popular as JSON. For the time being, JSON appears to be the go-to
-format for communicating with other programs.
+format for communicating with other programs over the internet.
 
 JSON's dominance is surprising when you consider that as recently as 2005 the
 web world was salivating over the potential of "Asynchronous JavaScript and
 XML" and _not_ "Asynchronous JavaScript and JSON." It is of course possible
-that this had nothing to do with the relative popularity of the two formats and
-reflects only that "AJAX" must have seemed a more appealing acronym than
-"AJAJ." But even if some people were already using JSON instead of XML in 2005
-(and in fact not many people were yet), one still wonders how XML's fortunes
-could have declined so precipitously that a mere decade or so later
+that this had nothing to do with the relative popularity of the two formats at
+the time and reflects only that "AJAX" must have seemed a more appealing
+acronym than "AJAJ." But even if some people were already using JSON instead of
+XML in 2005 (and in fact not many people were yet), one still wonders how XML's
+fortunes could have declined so precipitously that a mere decade or so later
 "Asynchronous JavaScript and XML" has become an ironic misnomer. What happened
 in that decade? How did JSON supersede XML in so many applications? And who
 came up with this data format now depended on by engineers and systems all over
@@ -60,8 +61,8 @@ was not good. They wanted to pass data to their application after the initial
 page load, but they had not found a way to do this that would work across all
 the browsers they were targeting.
 
-Though it's hard to believe today, Internet Explorer was at the bleeding edge
-of web browsing in 2001. As early as 1999, Internet Explorer 5 supported a
+Though it's hard to believe today, Internet Explorer represented the bleeding
+edge of web browsing in 2001. As early as 1999, Internet Explorer 5 supported a
 primordial form of XMLHttpRequest, which programmers could access using a
 framework called ActiveX. Crockford and Morningstar could have used this
 technology to fetch data for their application, but they could not have used

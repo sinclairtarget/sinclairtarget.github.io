@@ -50,8 +50,8 @@ To take an example, say that you want to store information about bank
 customers. You might have one type of record to represent customers and another
 type of record to represent accounts. Like in a relational database, where each
 table has columns, these records will have different fields; we might want to
-have a name field, a street name field, and a city field for each customer. We
-must then decide whether we are likely to first lookup a customer and then
+have a first name field, a last name field, and a city field for each customer.
+We must then decide whether we are likely to first lookup a customer and then
 information about that customer's account, or whether we are likely to first
 lookup an account and then information about that account's owner. Assuming we
 decide that we will access customers first, then we will make our account
@@ -79,32 +79,32 @@ our data in ways we did not anticipate, we will have a hard time.
 
 To illustrate this, consider what might happen if we decide that we would like
 to access accounts before customers. Perhaps customers are calling in to update
-their addresses, but they only know their account numbers and not their
-customer IDs. So what we would like to do is use an account number to find an
-account, and then from there find the account's owner. But since all accesses
-start at the root of our tree, there's no way for us to get to an account
-efficiently without first deciding on a customer. To fix this problem, we could
-introduce a second tree or hierarchy starting with account records; these
-account records would then have customer records as children. This would let us
-access accounts and then customers efficiently. But it would involve
-duplicating information that we already have stored in our database—we would
-have two trees storing the same information in different orders. Another option
-would be to establish an index of accounts that could point us to the right
-account record given an account number. That would work too, but it would
-entail extra work during insert and update operations in the future.
+their addresses, and we would like them to uniquely identify themselves using
+their account numbers. So we want to use an account number to find an account,
+and then from there find the account's owner. But since all accesses start at
+the root of our tree, there's no way for us to get to an account efficiently
+without first deciding on a customer. To fix this problem, we could introduce a
+second tree or hierarchy starting with account records; these account records
+would then have customer records as children. This would let us access accounts
+and then customers efficiently. But it would involve duplicating information
+that we already have stored in our database—we would have two trees storing the
+same information in different orders. Another option would be to establish an
+index of accounts that could point us to the right account record given an
+account number. That would work too, but it would entail extra work during
+insert and update operations in the future.
 
 It was precisely this inflexibility and the problem of duplicated information
-that motivated E. F. Codd's proposal of the relational model. In his 1970
-paper, _A Relational Model of Data for Large Shared Data Banks_, he states at
-the outset that he intends to present a model for data storage that can protect
-users from having to know anything about how their data is stored. Looked at
-one way, the hierarchical model is entirely an artifact of how the designers of
-IMS chose to store data. It is a _bottom-up_ model, the implication of a
-physical reality. The relational model, on the other hand, is an abstract model
-based on relational algebra, and is _top-down_ in that the data storage scheme
-can be anything provided it accommodates the model. The relational model's
-great advantage is that, just because you've made decisions that have caused
-the database to store your data in a particular way, you won't find yourself
+that pushed E. F. Codd to propose the relational model. In his 1970 paper, _A
+Relational Model of Data for Large Shared Data Banks_, he states at the outset
+that he intends to present a model for data storage that can protect users from
+having to know anything about how their data is stored. Looked at one way, the
+hierarchical model is entirely an artifact of how the designers of IMS chose to
+store data. It is a _bottom-up_ model, the implication of a physical reality.
+The relational model, on the other hand, is an abstract model based on
+relational algebra, and is _top-down_ in that the data storage scheme can be
+anything provided it accommodates the model. The relational model's great
+advantage is that, just because you've made decisions that have caused the
+database to store your data in a particular way, you won't find yourself
 effectively unable to make certain queries.
 
 All that said, the relational model is an abstraction, and we all know
