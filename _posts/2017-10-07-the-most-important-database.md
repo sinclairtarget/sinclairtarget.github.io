@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Most Important Database You've Never Heard of
 ---
 In 1962, JFK challenged Americans to send a man to the moon by the end of the

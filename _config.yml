@@ -1,1 +1,8 @@
 name: Two-Bit History
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      comments: true

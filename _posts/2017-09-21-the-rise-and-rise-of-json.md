@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Rise and Rise of JSON
 excerpt: >
     JSON has taken over the world. Today, when any two applications communicate

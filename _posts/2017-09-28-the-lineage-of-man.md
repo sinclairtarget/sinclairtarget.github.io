@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Lineage of Man
 ---
 I've always found man pages fascinating. Formatted as strangely as they are and
