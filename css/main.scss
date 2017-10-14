@@ -75,7 +75,17 @@ h1 a {
 }
 
 .footnotes {
-    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+
+    a {
+        word-break: break-all;
+    }
+
+    :not(a) {
+        overflow-wrap: break-word;
+    }
 }
 
 .nobr {
