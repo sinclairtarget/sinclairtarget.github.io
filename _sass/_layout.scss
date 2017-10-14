@@ -62,7 +62,6 @@ header ul, .mobile-header ul, ul.index {
 .mobile-header .dropdown {
     width: $header-width;
     float: right;
-    text-align: right;
     clear: both;
 
     p, ul {
@@ -111,6 +110,7 @@ footer {
 
     overflow: hidden;
     padding-bottom: 0.8em;
+    text-align: right;
 
     .dropdown-toggle {
         overflow: hidden;
@@ -118,8 +118,9 @@ footer {
 
     h1 {
         margin: 0;
+        margin-right: 12px;
         float: right;
-        width: 100px;
+        width: 200px;
         line-height: 0.8;
     }
 
