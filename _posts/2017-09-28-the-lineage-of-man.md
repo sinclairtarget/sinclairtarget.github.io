@@ -212,6 +212,5 @@ are. In a field where rapid change is the norm, maybe some
 stability—particularly in a documentation system we all turn to in moments of
 ignorance and confusion—is a good thing.
 
-[^1]: https://truss.works/blog/2016/12/9/man-splained
-
-[^2]: http://www.cs.dartmouth.edu/~doug/reader.pdf
+[^1]: [https://truss.works/blog/2016/12/9/man-splained](https://truss.works/blog/2016/12/9/man-splained)
+[^2]: [http://www.cs.dartmouth.edu/~doug/reader.pdf](http://www.cs.dartmouth.edu/~doug/reader.pdf)
