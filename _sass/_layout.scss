@@ -60,11 +60,7 @@ header {
 }
 
 .post-header {
-    margin: 2.0em 0;
-
-    @media (max-width: $main-extent) {
-        margin-top: 0;
-    }
+    margin-bottom: 2em;
 }
 
 article img {
