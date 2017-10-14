@@ -55,9 +55,25 @@ header {
     }
 }
 
-header ul, ul.index {
+header ul, .mobile-header ul, ul.index {
     padding: 0;
 }
+
+.mobile-header .dropdown {
+    width: $header-width;
+    float: right;
+    text-align: right;
+    clear: both;
+
+    p, ul {
+        margin: 8px;
+    }
+
+    li {
+        margin: 5px;
+    }
+}
+
 
 .post-header {
     margin-bottom: 2em;
@@ -86,4 +102,29 @@ ul.index {
 footer {
     padding-top: 30px;
     text-align: center;
+}
+
+.mobile-header {
+    @media (min-width: $main-with-header-extent) {
+        display: none;
+    }
+
+    overflow: hidden;
+    padding-bottom: 0.8em;
+
+    .dropdown-toggle {
+        overflow: hidden;
+    }
+
+    h1 {
+        margin: 0;
+        float: right;
+        width: 100px;
+        line-height: 0.8;
+    }
+
+    .arrow-down, .arrow-up {
+        float: right;
+        margin-top: 0.5em;
+    }
 }

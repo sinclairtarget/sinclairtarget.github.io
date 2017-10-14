@@ -8,9 +8,34 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="{{ site.baseurl }}{% link scripts/dropdown.js %}"></script>
   </head>
   <body>
     <!-- content -->
+    <div class="mobile-header">
+      <div class="dropdown-toggle">
+        <div class="arrow-down">
+        </div>
+        <h1><code>0b10</code></h1>
+      </div>
+      <div class="dropdown closed">
+        <p>Two-Bit History</p>
+        <nav>
+          <ul>
+            <li>
+              <a href="{{site.baseurl}}{% link index.html %}">Home</a>
+            </li>
+            <li>
+              <a href="{{site.baseurl}}{% link about.html %}">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <main>
       <header>
         <h1><a href="{{site.baseurl}}{% link index.html %}">
