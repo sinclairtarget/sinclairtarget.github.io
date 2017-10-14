@@ -1,6 +1,17 @@
 ---
 layout: post
 title: The Rise and Rise of JSON
+excerpt: >
+    JSON has taken over the world. Today, when any two applications communicate
+    with each other across the internet, odds are they do so using JSON. It has
+    been adopted by all the big players: Of the ten most popular web APIs, a
+    list consisting mostly of APIs offered by major companies like Google,
+    Facebook, and Twitter, only one API exposes data in XML rather than JSON.
+    Twitter, to take one example, supported XML until 2013, when it released a
+    new API version that dropped XML in favor of using JSON exclusively. JSON
+    has also been widely adopted by the programming rank and file: According to
+    Stack Overflow, a question and answer site for programmers, more questions
+    are now asked about JSON than about any other data interchange format.
 ---
 JSON has taken over the world. Today, when any two applications communicate
 with each other across the internet, odds are they do so using JSON. It has

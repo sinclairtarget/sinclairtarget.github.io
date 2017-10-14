@@ -43,10 +43,6 @@ header {
         margin: 0.1em 0;
     }
 
-    ul {
-        padding: 0;
-    }
-
     padding-right: $header-padding;
 
     position: absolute;
@@ -59,10 +55,30 @@ header {
     }
 }
 
+header ul, ul.index {
+    padding: 0;
+}
+
 .post-header {
     margin-bottom: 2em;
 }
 
 article img {
     max-width: 100%;
+}
+
+ul.index {
+    margin: 0;
+
+    li {
+        padding: 20px 0;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            padding-bottom: none;
+        }
+    }
 }

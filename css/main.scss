@@ -51,9 +51,17 @@ sup {
 header {
     font-family: 'Open Sans', sans-serif;
     border-right: 1px solid black;
+}
 
-    ul {
-        list-style: none;
+header ul, ul.index {
+    list-style: none;
+}
+
+ul.index li {
+    border-bottom: 1px dashed $index-border-color;
+
+    &:last-child {
+        border-bottom: none;
     }
 }
 
