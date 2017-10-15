@@ -1,14 +1,11 @@
 @font-face {
-    font-family: 'AdobeGaramondRegular';
+    font-family: 'AdobeGaramond';
     src: url('/fonts/adobe_garamond_regular.ttf');
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'AdobeGaramondItalic';
+    font-family: 'AdobeGaramond';
     src: url('/fonts/adobe_garamond_italic.ttf');
-}
-
-@font-face {
-    font-family: 'AdobeGaramondBold';
-    src: url('/fonts/adobe_garamond_bold.ttf');
+    font-style: italic;
 }
