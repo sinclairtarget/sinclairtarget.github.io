@@ -15,6 +15,10 @@ body {
     line-height: 1.5;
 }
 
+.code-title {
+    font-family: monospace;
+}
+
 pre {
     background-color: $pre-background-color;
     border: 1px solid $pre-border-color;
@@ -22,6 +26,16 @@ pre {
     padding: 12px;
     overflow: scroll;
     margin: 1.8em 0;
+    font-size: 1.4rem;
+}
+
+:not(pre) > code {
+    font-size: 1.4rem;
+    background-color: $pre-background-color;
+    border: 1px solid $pre-border-color;
+    border-radius: 5px;
+    padding: 0.1em 0.3em;
+    white-space: nowrap;
 }
 
 h1 {
