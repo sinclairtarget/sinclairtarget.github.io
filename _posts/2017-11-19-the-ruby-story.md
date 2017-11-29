@@ -49,8 +49,8 @@ tech talk that Matsumoto gave in 2008, he showed the following slide:
 He told his audience,
 
 > I hope to see Ruby help every programmer in the world to be productive, and
-> to enjoy programming, and to be happy. That is the primary purpose of Ruby
-> language.[^2]
+> to enjoy programming, and to be happy. That is the primary purpose of the
+> Ruby language.[^2]
 
 Matsumoto goes on to joke that he created Ruby for selfish reasons, because he
 was so underwhelmed by other languages that he just wanted to create something
@@ -70,9 +70,10 @@ Ruby was influenced primarily by Perl. Perl was created by Larry Wall in the
 late 1980s as a means of processing and transforming text-based reports. It
 became well-known for its text processing and regular expression capabilities.
 A Perl program contains many syntactic elements that would be familiar to a
-Ruby programmer—there are `$` signs, `@` signs, and even `elsif`s. Less
-superficially, Ruby borrows much of Perl's regular expression handling and
-standard library.
+Ruby programmer—there are `$` signs, `@` signs, and even `elsif`s, which I'd
+always thought were one of Ruby's less felicitous idiosyncracies. On a deeper
+level, Ruby borrows much of Perl's regular expression handling and standard
+library.
 
 But Perl was by no means the only influence on Ruby. Prior to beginning work on
 Ruby, Matsumoto worked on a mail client written entirely in Emacs Lisp. The
@@ -115,9 +116,9 @@ for the first time. Like it had in Japan, Ruby spread quickly, and by 2002 the
 English-language Ruby mailing list had more traffic than the original
 Japanese-language mailing list.
 
-Ruby had become more popular, but it was still not a "mainstream" programming
-language. That changed in 2005 with the release of Ruby on Rails. Ruby on Rails
-was the "killer app" for Ruby, and it did more than any other project to
+By 2005, Ruby had become more popular, but it was still not a mainstream
+programming language. That changed with the release of Ruby on Rails. Ruby on
+Rails was the "killer app" for Ruby, and it did more than any other project to
 popularize Ruby. After the release of Ruby on Rails, interest in Ruby shot up
 across the board, as measured by the TIOBE language index:
 
@@ -207,7 +208,7 @@ modern" interpretations of Ruby: Elixir, for example, is a version of Ruby that
 emphasizes the functional programming paradigm, while Crystal, which is still
 in development, aims to be a statically typed version of Ruby. Many programmers
 around the world have fallen in love with Ruby and its syntax, so we can count
-on its influence peristing for a long while to come.
+on its influence persisting for a long while to come.
 
 [^1]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
 [^2]: https://www.youtube.com/watch?v=oEkJvvGEtB4?t=30m55s
