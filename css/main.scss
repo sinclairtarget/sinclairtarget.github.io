@@ -36,6 +36,11 @@ a {
     }
 }
 
+.tagline {
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
 // Make sure that superscript (e.g. for footnotes) doesn't mess with line
 // height. We just lower the superscript a tad.
 sup {
@@ -45,7 +50,7 @@ sup {
 }
 
 header {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     border-right: 1px solid black;
 }
 
