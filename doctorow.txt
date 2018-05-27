@@ -1,0 +1,52 @@
+Subject: Re: "Metacrap" and the History of the Semantic Web
+From: Sinclair Target <sinclairtarget@gmail.com>
+To: Cory Doctorow <doctorow@craphound.com>
+Date: Fri, 11 May 2018 07:58:46 -0400
+
+Great! Thank you so much.
+
+I've only got three questions and your answers can be as long or short as
+you'd like.
+
+1. What prompted you to write "Metacrap"?
+2. Did the semantic web never come to fruition for exactly the reasons you
+listed in "Metacrap," or do you think there were other reasons in the end?
+3. Even if we never got the semantic web we were promised, in your opinion,
+has the effort to create it yielded any useful technologies?
+
+Thanks again for your time! I really appreciate it.
+
+
+Subject: Re: "Metacrap" and the History of the Semantic Web
+To: Sinclair Target <sinclairtarget@gmail.com>
+From: Cory Doctorow <doctorow@craphound.com>
+Date: Fri, 11 May 2018 13:54:10 -0700
+
+> 1. What prompted you to write "Metacrap"?
+
+It was basically a transcription of a series of debates/arguments I'd
+have with semweb hucksters at tech conferences, who had a kind of cant
+they'd drop into whenever you challenged their views. I thought it would
+be useful to assemble what amounted to a "snappy questions to stupid
+answers" or "frequently mooted rhetorical questions" file.
+
+
+> 2. Did the semantic web never come to fruition for exactly the reasons
+> you listed in "Metacrap," or do you think there were other reasons in
+> the end?
+
+I'm sure failure of any vision is a complex phenomenon, but
+"impossibility" is usually dispositive. Given that several of my
+critiques were, "This is impossible," any one (assuming I was right)
+would be a career-ending injury for semweb practicioners.
+
+> 3. Even if we never got the semantic web we were promised, in your
+> opinion, has the effort to create it yielded any useful technologies?
+
+Oh, I'm sure! All that pension fund money that was siphoned off in the
+dotcom bubble to train humanities dropouts to create technical material
+had lots of upsides: it diversified the workforce so it wasn't just
+engineers, and it created a generational fluency in RDF and XML. I
+wouldn't be surprised if there was a traceable causal link between
+semweb overinvestement and the creation of a workforce capable of
+revamping Msft Office file formats to be XML based.
