@@ -131,3 +131,13 @@ footer {
         margin-top: 0.5em;
     }
 }
+
+blockquote {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    @media (min-width: $main-with-header-extent) {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
