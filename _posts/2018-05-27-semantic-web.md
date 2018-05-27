@@ -33,7 +33,7 @@ myriad conveniences of the Semantic Web might look something like this:
 > His sister, Lucy, was on the line from the doctor's office: "Mom needs to see
 > a specialist and then has to have a series of physical therapy sessions.
 > Biweekly or something. I'm going to have my agent set up the appointments."
-> Pete immediately agreed to share the chaufferuing. At the doctor's office,
+> Pete immediately agreed to share the chauffeuring. At the doctor's office,
 > Lucy instructed her Semantic Web agent through her handheld Web browser. The
 > agent promptly retrieved the information about Mom's prescribed treatment
 > within a 20-mile radius of her home and with a rating of excellent or very
@@ -114,17 +114,18 @@ Cory Doctorow, a blogger and digital rights activist, published an influential
 essay in 2001 that pointed out the many problems with depending on voluntarily
 supplied metadata. A world of "exhaustive, reliable" metadata would be
 wonderful, he argued, but such a world was "a pipe-dream, founded on
-self-delusion, nerd hubris, and hysterically inflated market opportunites."[^3]
-Doctorow had found himself in a series of debates over the Semantic Web at tech
-conferences and wanted to catalog the serious issues that the Semantic Web
-enthusiasts (Doctorow calls them "semweb hucksters") were overlooking.[^4] The
-essay, titled "Metacrap," identifies seven problems, among them the obvious
-fact that most web users were likely to provide either no metadata at all or
-else lots of misleading metadata meant to draw clicks. Even if users were
-universally diligent and well-intentioned, in order for the metadata to be
-robust and reliable, users would all have to agree on a single representation
-for each important concept. Doctorow argued that in some cases a single
-representation might not be appropriate, desirable, or fair to all users.
+self-delusion, nerd hubris, and hysterically inflated market
+opportunities."[^3] Doctorow had found himself in a series of debates over the
+Semantic Web at tech conferences and wanted to catalog the serious issues that
+the Semantic Web enthusiasts (Doctorow calls them "semweb hucksters") were
+overlooking.[^4] The essay, titled "Metacrap," identifies seven problems, among
+them the obvious fact that most web users were likely to provide either no
+metadata at all or else lots of misleading metadata meant to draw clicks. Even
+if users were universally diligent and well-intentioned, in order for the
+metadata to be robust and reliable, users would all have to agree on a single
+representation for each important concept. Doctorow argued that in some cases a
+single representation might not be appropriate, desirable, or fair to all
+users.
 
 Indeed, the web had already seen people abusing the HTML `<meta>` tag
 (introduced at least as early as HTML 4) in an attempt to improve the
@@ -156,9 +157,9 @@ against hardworking programmers that have pushed out sensible formats (like
 JSON) in favor of overly-complicated hairballs with no basis in reality." The
 Semantic Web might have thrived if, like the original web, its standards were
 eagerly adopted by everyone. But that never happened because—as [has been
-discussed]({% link _posts/2017-09-21-the-rise-and-rise-of-json.md %}) on this blog
-before—the putative benefits of something like XML are not easy to sell to a
-programmer when the alternatives are both entirely sufficient and much easier
+discussed]({% link _posts/2017-09-21-the-rise-and-rise-of-json.md %}) on this
+blog before—the putative benefits of something like XML are not easy to sell to
+a programmer when the alternatives are both entirely sufficient and much easier
 to understand.
 
 ## Building the Semantic Web
@@ -210,7 +211,7 @@ sipping Capri Suns in 1999.)
 
 Other specifications finalized and drafted during this first era of Semantic
 Web development describe all the ways in which RDF can be used. RDF in
-Attributes (RDFa) defines how RDF can be embeded in HTML webpages so that
+Attributes (RDFa) defines how RDF can be embedded in HTML webpages so that
 browsers, search engines, and other programs can glean meaning from a webpage.
 RDF Schema and later a standard called OWL allows RDF authors to demarcate the
 boundary between valid and invalid RDF statements in their RDF documents. RDF
@@ -258,7 +259,7 @@ for a world that had chosen JSON over XML. Sporny, together with his CTO, Dave
 Longley, issued a draft specification of JSON-LD in 2010. For the next few
 years, JSON-LD and an updated RDF specification would be the primary focus of
 Semantic Web work at the W3C. JSON-LD could be used on its own or it could be
-embeded within a `<script>` tag on an HTML page, making it an alternative to
+embedded within a `<script>` tag on an HTML page, making it an alternative to
 both RDF and RDFa.
 
 Work on JSON-LD coincided with the development of
@@ -267,7 +268,7 @@ for describing things that might exist on the web. schema.org was started by
 Google, Bing, and Yahoo with the express purpose of delivering better search
 results by agreeing to a common set of vocabularies. schema.org vocabularies,
 together with JSON-LD, are now used to drive features like Google's Knowledge
-Graph. The approach was a more practical and less abtract one, where immediate
+Graph. The approach was a more practical and less abstract one, where immediate
 applications in search results were the focus. The schema.org team are careful
 to state on their website that they are not attempting to create a "universal
 ontology."[^12]
@@ -287,7 +288,7 @@ And so the Semantic Web, as colorfully described by one blogger, is "as dead as
 last year's roadkill."[^14] At least, the version of the Semantic Web
 originally proposed by Tim Berners-Lee, which once seemed to be the imminent
 future of the web, is unlikely to emerge soon. That said, many of the
-technologies and ideas that were developed amidst the push to create the
+technologies and ideas that were developed amid the push to create the
 Semantic Web have been repurposed and live on in various applications. As
 already mentioned, Google relies on Semantic Web technologies—now primarily
 JSON-LD—to generate useful conceptual summaries next to search results.
@@ -363,7 +364,7 @@ Semantic Web seduced so many people.
 [^1]: Berners-Lee, Tim, James Hendler, and Ora Lassila. "The Semantic Web." _Scientific American_, May 2001, <https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf>.
 [^2]: Shannon, Victoria. "A 'more Revolutionary' Web." The New York Times, May 23, 2006. <https://www.nytimes.com/2006/05/23/technology/23iht-web.html>.
 [^3]: Doctorow, Cory. "Metacrap: Putting the Torch to Seven Straw-men of the Meta-utopia." August 26, 2001. Accessed May 26, 2018. <https://people.well.com/user/doctorow/metacrap.htm>.
-[^4]: Doctorow, Cory. "'Metacrap' and the History of the Semantic Web." E-mail message to author. May 11, 2018.
+[^4]: Doctorow, Cory. "'Metacrap' and the History of the Semantic Web." [E-mail message]({% link doctorow.txt %}) to author. May 11, 2018.
 [^5]: Munat, Ben. "The Lowercase Semantic Web: Using Semantics on the Existing World Wide Web." May 2004. Accessed May 26, 2018. <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.85.3445&rep=rep1&type=pdf>.
 [^6]: Swartz, Aaron. A Programmable Web: An Unfinished Work. Morgan and Claypool, 2013. March 12, 2013. Accessed May 26, 2018. <https://upload.wikimedia.org/wikipedia/commons/3/3f/Aaron_Swartz_s_A_Programmable_Web_An_Unfinished_Work.pdf>.
 [^7]: Palmer, Sean B. "What Happened to the Semantic Web?" October 11, 2017. SW-forum Web. Accessed May 26, 2018. <http://lists.w3.org/Archives/Public/public-lod/2017Oct/0003.html>.
