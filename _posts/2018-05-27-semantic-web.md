@@ -24,8 +24,9 @@ Web was that it would be readable not just by humans but also by machines.
 Pages on the web would be _meaningful_ to software programs—they would have
 semantics—allowing programs to interact with the web the same way that people
 do. Programs could exchange data across the Semantic Web without having to be
-explicitly engineered to talk to each other. A typical day living with the
-myriad conveniences of the Semantic Web might look something like this:
+explicitly engineered to talk to each other. According to Berners-Lee, Lassila,
+and Hendler, a typical day living with the myriad conveniences of the Semantic
+Web might look something like this:
 
 > _The entertainment system was belting out the Beatles' "We Can Work It Out"
 > when the phone rang. When Pete answered, his phone turned the sound down by
@@ -41,9 +42,9 @@ myriad conveniences of the Semantic Web might look something like this:
 > available appointment times (supplied by the agents of individual providers
 > through their Web sites) and Pete's and Lucy's busy schedules._[^1]
 
-The Semantic Web, according to Berners-Lee, Lassila, and Hendler, would become
-a playground for intelligent Semantic Web "agents." These agents would automate
-much of the work that the world had only just learned to do on the web.
+The vision was that the Semantic Web would become a playground for intelligent
+"agents." These agents would automate much of the work that the world had only
+just learned to do on the web.
 
 ![](/images/scientific_american_cover.jpg)
 
@@ -211,17 +212,17 @@ sipping Capri Suns in 1999.)
 
 Other specifications finalized and drafted during this first era of Semantic
 Web development describe all the ways in which RDF can be used. RDF in
-Attributes (RDFa) defines how RDF can be embedded in HTML webpages so that
-browsers, search engines, and other programs can glean meaning from a webpage.
-RDF Schema and later a standard called OWL allows RDF authors to demarcate the
-boundary between valid and invalid RDF statements in their RDF documents. RDF
-Schema and OWL, in other words, are tools for creating what are known as
-ontologies, explicit specifications of what can and cannot be said within a
-specific domain. An ontology might include a rule, for example, expressing that
-no person can be the mother of another person without also being a parent of
-that person. The hope was that these ontologies would be widely used not only
-to check the accuracy of RDF found in the wild but also to make inferences
-about omitted information.
+Attributes (RDFa) defines how RDF can be embedded in HTML so that browsers,
+search engines, and other programs can glean meaning from a webpage. RDF Schema
+and another standard called OWL allows RDF authors to demarcate the boundary
+between valid and invalid RDF statements in their RDF documents. RDF Schema and
+OWL, in other words, are tools for creating what are known as ontologies,
+explicit specifications of what can and cannot be said within a specific
+domain. An ontology might include a rule, for example, expressing that no
+person can be the mother of another person without also being a parent of that
+person. The hope was that these ontologies would be widely used not only to
+check the accuracy of RDF found in the wild but also to make inferences about
+omitted information.
 
 In 2006, Tim Berners-Lee posted a short article in which he argued that the
 existing work on Semantic Web standards needed to be supplemented by a
