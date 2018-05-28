@@ -19,6 +19,9 @@
     <meta property="og:title" content="{{page.title}}" />
     <meta property="og:description" content="{{page.description}}" />
 
+    <!-- RSS -->
+    {% feed_meta %}
+
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
             crossorigin="anonymous"></script>
@@ -93,6 +96,11 @@
           <li>
             <a href="https://twitter.com/TwoBitHistory">
               <img class="icon" src="{{site.url}}{% link images/twitter.svg %}" />
+            </a>
+          </li>
+          <li>
+            <a href="{{site.url}}/feed.xml">
+              <img class="icon" src="{{site.url}}{% link images/feed.png %}" />
             </a>
           </li>
         </ul>
