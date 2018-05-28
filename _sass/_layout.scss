@@ -64,8 +64,17 @@ header ul, .mobile-header ul, ul.index {
     float: right;
     clear: both;
 
-    p, ul {
-        margin: 8px;
+    p {
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    nav {
+        padding: 8px 0;
+    }
+
+    ul {
+        margin: 0 8px;
     }
 
     li {
