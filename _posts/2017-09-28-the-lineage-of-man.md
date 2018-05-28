@@ -197,9 +197,9 @@ forgoing the patina of respectability a man page can provide. The man page is
 an institution that doesn't seem likely to disappear or evolve soon, which is
 fascinating, because there are so many ways in which we could do man pages
 better. XML didn't come off well in my [last
-post]({{ site.baseurl }}{% link _posts/2017-09-21-the-rise-and-rise-of-json.md
-%}), but it would be the perfect format here, and it would allow us to do
-something like query `man` about an option:
+post]({{ site.url }}{% link _posts/2017-09-21-the-rise-and-rise-of-json.md %}),
+but it would be the perfect format here, and it would allow us to do something
+like query `man` about an option:
 
 ```
 $ man grep -v
