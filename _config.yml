@@ -7,3 +7,5 @@ defaults:
     values:
       layout: "post"
       comments: true
+plugins:
+  - jekyll-feed
