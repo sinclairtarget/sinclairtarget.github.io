@@ -1,5 +1,6 @@
 name: Two-Bit History
 url: https://twobithistory.org
+excerpt_separator: <!--more-->
 defaults:
   -
     scope:
