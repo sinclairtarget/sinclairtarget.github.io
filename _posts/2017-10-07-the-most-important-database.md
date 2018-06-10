@@ -8,6 +8,7 @@ engineering effort were highly visible and sexy—there were new spacecraft, new
 spacesuits, and moon buggies. But the Apollo Program was so staggeringly
 complex that new technologies had to be invented even to do the mundane things.
 One of these technologies was IBM's Information Management System (IMS).
+<!--more-->
 
 IMS is a database management system. NASA needed one in order to keep track of
 all the parts that went into building a Saturn V rocket, which—because there

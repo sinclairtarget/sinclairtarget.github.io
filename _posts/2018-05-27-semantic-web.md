@@ -3,15 +3,6 @@ title: Whatever Happened to the Semantic Web?
 description: >
     In 2001, Tim Berners-Lee, inventor of the World Wide Web, published an
     article in Scientific American.
-excerpt: >
-    In 2001, Tim Berners-Lee, inventor of the World Wide Web, published an
-    article in Scientific American. Berners-Lee, along with two other
-    researchers, Ora Lassila and James Hendler, wanted to give the world a
-    preview of the revolutionary new changes they saw coming to the web. Since
-    its introduction only a decade before, the web had fast become the world's
-    best means for sharing documents with other people. Now, the authors
-    promised, the web would evolve to encompass not just documents but every
-    kind of data one could imagine.
 ---
 In 2001, Tim Berners-Lee, inventor of the World Wide Web, published an article
 in Scientific American. Berners-Lee, along with two other researchers, Ora
@@ -21,6 +12,7 @@ only a decade before, the web had fast become the world's best means for
 sharing documents with other people. Now, the authors promised, the web would
 evolve to encompass not just documents but every kind of data one could
 imagine.
+<!--more-->
 
 They called this new web the Semantic Web. The great promise of the Semantic
 Web was that it would be readable not just by humans but also by machines.

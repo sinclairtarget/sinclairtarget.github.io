@@ -2,6 +2,7 @@ The [Altair 8800](https://en.wikipedia.org/wiki/Altair_8800) was a
 build-it-yourself home computer kit released in 1975. The Altair was basically
 the first personal computer, though it predated the advent of that term by
 several years. It is Adam (or Eve) to every Dell, HP, or Macbook out there.
+<!--more-->
 
 Some people thought it'd be awesome to write an emulator for the Z8—a processor
 closely related to the Altair's Intel 8080—and then thought it needed a

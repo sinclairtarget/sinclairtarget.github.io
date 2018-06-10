@@ -1,7 +1,6 @@
 ---
 title: The Ruby Story
 ---
-
 Ruby has always been one of my favorite languages, though I've sometimes found
 it hard to express why that is. The best I've been able to do is this musical
 analogy: Whereas Python feels to me like punk rock—it's simple, predictable,
@@ -9,6 +8,7 @@ but rigid—Ruby feels like jazz. Ruby gives programmers a radical freedom to
 express themselves, though that comes at the cost of added complexity and can
 lead to programmers writing programs that don't make immediate sense to other
 people.
+<!--more-->
 
 I've always been aware that freedom of expression is a core value of the Ruby
 community. But what I didn't appreciate is how deeply important it was to the

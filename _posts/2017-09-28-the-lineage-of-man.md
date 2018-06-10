@@ -12,6 +12,7 @@ believe that something so fundamental and so obviously governed by rigid
 conventions could remain so inscrutable. Where did the man page conventions
 come from? Where are they codified? If I wanted to write my own man page, where
 would I even begin?
+<!--more-->
 
 The story of `man` is inextricably tied to the story of Unix. The very first
 version of Unix, completed in 1971 but only available internally at Bell Labs,

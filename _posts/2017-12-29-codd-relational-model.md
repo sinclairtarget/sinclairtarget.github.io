@@ -8,6 +8,7 @@ old-fashioned and boring. Yet, 50 years ago, none of the dominant database
 systems were relational. Nobody had thought to structure their data that way.
 When the relational model did come along, it was a radical new idea that
 revolutionized the database world and spawned a multi-billion dollar industry.
+<!--more-->
 
 The relational model was introduced in 1970. Edgar F. Codd, a researcher at
 IBM, published a
