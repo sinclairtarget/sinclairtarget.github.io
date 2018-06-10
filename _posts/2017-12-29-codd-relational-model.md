@@ -129,3 +129,5 @@ not that difficult of a read. I encourage you to look through it yourself. It
 would be another ten years before Codd's ideas were properly implemented in a
 functioning system, but, when they finally were, those systems were so obviously
 better than previous systems that they took the world by storm.
+
+{% include subscribe.html %}

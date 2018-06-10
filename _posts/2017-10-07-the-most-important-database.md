@@ -133,6 +133,8 @@ work in ways we don't expect or aren't used to. And it's especially interesting
 when those systems, alien as they are, turn out to undergird your local
 hospital, the entire financial sector, and even the federal government.
 
+{% include subscribe.html %}
+
 [^1]: [https://youtu.be/DhlpnSbSuJE?t=3m13s](https://youtu.be/DhlpnSbSuJE?t=3m13s)
 [^2]: Klein, Barbara. _An Introduction to IMS: Your Complete Guide to IBM Information Management System._ IBM Press, 2012.
 [^3]: [https://www.slideshare.net/roberthain/ims05-ims-100-k-benchmark](https://www.slideshare.net/roberthain/ims05-ims-100-k-benchmark)

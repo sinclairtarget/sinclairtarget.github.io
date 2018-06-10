@@ -210,6 +210,8 @@ in development, aims to be a statically typed version of Ruby. Many programmers
 around the world have fallen in love with Ruby and its syntax, so we can count
 on its influence persisting for a long while to come.
 
+{% include subscribe.html %}
+
 [^1]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
 [^2]: https://www.youtube.com/watch?v=oEkJvvGEtB4?t=30m55s
 [^3]: http://rubyonrails.org/doctrine/

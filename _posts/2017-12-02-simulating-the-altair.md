@@ -63,3 +63,5 @@ Altair control panel!
 
 And if you really want to nerd out, read through the original [Altair
 manual](http://www.classiccmp.org/dunfield/altair/d/88opman.pdf).
+
+{% include subscribe.html %}

@@ -247,6 +247,8 @@ for HTML, then maybe there were better tools out there for other applications
 also. In that world, our world, it is easy to see how a format as simple and
 narrowly tailored as JSON could find great success.
 
+{% include subscribe.html %}
+
 [^1]: [http://www.cs.tufts.edu/comp/150IDS/final_papers/tstras01.1/FinalReport/FinalReport.html#software](http://www.cs.tufts.edu/comp/150IDS/final_papers/tstras01.1/FinalReport/FinalReport.html#software)
 [^2]: [https://insights.stackoverflow.com/trends?tags=json%2Cxml%2Cprotocol-buffers%2Cyaml%2Ccsv](https://insights.stackoverflow.com/trends?tags=json%2Cxml%2Cprotocol-buffers%2Cyaml%2Ccsv)
 [^3]: Zakas, Nicholas C., et al. “What Is Ajax?” Professional Ajax, 2nd ed., Wiley, 2007.

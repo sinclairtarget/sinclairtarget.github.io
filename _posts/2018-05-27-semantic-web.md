@@ -357,6 +357,8 @@ yet been realized.  There are so many engineering and security issues to sort
 out between here and there. But it's also easy to see why the dream of the
 Semantic Web seduced so many people.
 
+{% include subscribe.html %}
+
 [^1]: Berners-Lee, Tim, James Hendler, and Ora Lassila. "The Semantic Web." _Scientific American_, May 2001, <https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf>.
 [^2]: Shannon, Victoria. "A 'more Revolutionary' Web." The New York Times, May 23, 2006. <https://www.nytimes.com/2006/05/23/technology/23iht-web.html>.
 [^3]: Doctorow, Cory. "Metacrap: Putting the Torch to Seven Straw-men of the Meta-utopia." August 26, 2001. Accessed May 26, 2018. <https://people.well.com/user/doctorow/metacrap.htm>.

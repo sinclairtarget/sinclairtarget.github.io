@@ -137,34 +137,35 @@ proposal. And so, in 1989, Berners-Lee did.
 Aware that CERN was unlikely to support a research project with no clear
 purpose, Berners-Lee pitched his idea as the documentation system CERN
 desperately lacked. With the Large Hadron Collider project just over the
-horizon, CERN needed a better way to record and organize information. (Today
-the LHC is literally the largest machine on the planet.) The software he was
-proposing, tentatively called the information "mesh," would unify the many
-existing documentation systems at CERN into one easily navigated, remotely
-accessible body of hypertext. Importantly, his new system would not impose any
-kind of artificial hierarchy on the data being stored. In an interesting echo
-of Edgar F. Codd, who [ten years earlier]({% post_url
-2017-12-29-codd-relational-model %}) demonstrated the many advantages of the
-relational database model over the prevailing hierarchical models, Berners-Lee
-warns against letting a hierarchical method of storage put undue constraints on
-the information stored. Instead, users should be able to make links between
-nodes in the structure arbitrarily.
+horizon—today, the LHC is the largest machine on the planet—CERN needed a
+better way to record and organize information. The software he was proposing,
+tentatively called the information "mesh," would unify the many existing
+documentation systems at CERN into one easily navigated, remotely accessible
+body of hypertext. Importantly, his new system would not impose any kind of
+artificial hierarchy on the data being stored. In an interesting echo of Edgar
+F. Codd, who [ten years earlier]({% post_url 2017-12-29-codd-relational-model
+%}) demonstrated the many advantages of the relational database model over the
+prevailing hierarchical models, Berners-Lee warns against letting a
+hierarchical method of storage put undue constraints on the information stored.
+Instead, users should be able to make links between nodes in the structure
+arbitrarily.
 
-[The proposal](https://www.w3.org/History/1989/proposal.html) is light on
-technical details and is almost a philosophical statement rather than a
-technical plan. There is no mention of markup languages or even of anything
-like HTTP, though Berners-Lee does say that an important part of the project
-will be defining an interface between clients and servers.  The closest he gets
-to describing how his system will work in practice is when he asks his readers
-to imagine "the references in this document, all being associated with the
-network address of the thing to which they referred, so that while reading this
-document you could skip to them with a click of the mouse." Reading the
-proposal today, it's obvious to us what Berners-Lee is describing—that's the
-web! But, in 1989, it would have been hard to grasp what this
-meta-documentation system was all about. Sendall supposedly wrote on his copy
-of the proposal that it was "vague but exciting."[^11]
+Berners-Lee's [original
+proposal](https://www.w3.org/History/1989/proposal.html) is light on technical
+details and is almost a philosophical statement rather than a technical plan.
+There is no mention of markup languages or even of anything like HTTP, though
+Berners-Lee does say that an important part of the project will be defining an
+interface between clients and servers. The closest he gets to describing how
+his system will work in practice is when he asks his readers to imagine "the
+references in this document, all being associated with the network address of
+the thing to which they referred, so that while reading this document you could
+skip to them with a click of the mouse." Reading the proposal today, it's
+obvious to us what Berners-Lee is describing—that's the web! But, in 1989, it
+would have been hard to grasp what this meta-documentation system was all
+about. Sendall supposedly wrote on his copy of the proposal that it was "vague
+but exciting."[^11]
 
-The other intriguing thing about the proposal is that, at least in 1989,
+Perhaps the most intriguing thing about the proposal is that, at least in 1989,
 Berners-Lee seems to have thought that he would be making a network-enabled
 ENQUIRE. The diagram he includes on the first page of his proposal shows nodes
 of several different kinds—there are people, concepts, documents, and software
@@ -206,7 +207,7 @@ as easy as creating a new subclass of the existing `Text` class called
 `HyperText`. Other classes Berners-Lee wrote had the prefix `HT`, for
 hypertext, because prefixing class names was a convention when using NeXTSTEP's
 application framework. If this seems familiar to anyone, that's because NeXT
-eventually got bought by Apple.  The AppKit framework that iOS and Mac
+eventually got bought by Apple. The AppKit framework that iOS and Mac
 developers know so well today is only the modern incarnation of the framework
 Berners-Lee used to build the first web browser. Berners-Lee's browser,
 `WorldWideWeb.app`, even had an [application
@@ -272,12 +273,15 @@ almost inevitable. Interest in hypertext was growing even as TCP/IP made it
 easier for different computer systems to talk to each other. Questions like the
 one asked on the alt.hypertext newsgroup about hypertext connecting
 "heterogeneous" systems show that other people were beginning to see the
-potential of such a system. Then again, Berners-Lee, fortunate enough to have
-worked, in short order, with hypertext systems, markup languages, and RPC
-protocols, was uniquely situated to bring those strands together. Without
-Berners-Lee, a "web" may eventually have emerged, but it might not have
-happened for several more years and it might not have resembled the free and
-open web that Berners-Lee gave us.
+potential of such a system. Then again, people like Ted Nelson spent years
+trying to create a universal hypertext system without getting anywhere.
+Berners-Lee, fortunate enough to have worked with, in short order, hypertext
+systems, markup languages, and RPC protocols, was uniquely situated to bring
+those strands together. Without Berners-Lee, a "web" may eventually have
+emerged, but it might not have happened for several more years and it might not
+have resembled the free and open web that Berners-Lee gave us.
+
+{% include subscribe.html %}
 
 [^1]: Coover, Robert. "The End of Books." The New York Times, June 21, 1992. Accessed June 2, 2018, <https://archive.nytimes.com/www.nytimes.com/books/98/09/27/specials/coover-end.html?pagewanted=all>.
 [^2]: Berners-Lee, Tim, and Mark Fischetti. _Weaving the Web: The Original Design and Ultimate Destiny of the World Wide Web_. (Harper Business, 2000), 3.
