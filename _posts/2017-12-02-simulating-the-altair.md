@@ -7,9 +7,9 @@ the first personal computer, though it predated the advent of that term by
 several years. It is Adam (or Eve) to every Dell, HP, or Macbook out there.
 <!--more-->
 
-Some people thought it'd be awesome to write an emulator for the Z8—a processor
-closely related to the Altair's Intel 8080—and then thought it needed a
-simulation of the Altair's control panel on top of it. So if you've ever
+Some people thought it'd be awesome to write an emulator for the Z80—a
+processor closely related to the Altair's Intel 8080—and then thought it needed
+a simulation of the Altair's control panel on top of it. So if you've ever
 wondered what it was like to use a computer in 1975, you can run the Altair on
 your Macbook:
 
