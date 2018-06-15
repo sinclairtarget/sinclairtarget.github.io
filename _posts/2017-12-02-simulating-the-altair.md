@@ -13,7 +13,7 @@ a simulation of the Altair's control panel on top of it. So if you've ever
 wondered what it was like to use a computer in 1975, you can run the Altair on
 your Macbook:
 
-![Altair 8800](http://www.autometer.de/unix4fun/z80pack/altair.png)
+![Altair 8800](https://www.autometer.de/unix4fun/z80pack/altair.png)
 
 ### Installing it
 
