@@ -44,12 +44,8 @@ pre {
 }
 
 h1 {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
     line-height: 1.2;
-
-    @media (max-width: $main-with-header-extent) {
-        font-size: 3.6rem;
-    }
 }
 
 a {
