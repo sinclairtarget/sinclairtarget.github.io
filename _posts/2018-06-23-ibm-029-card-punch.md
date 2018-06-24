@@ -1,7 +1,7 @@
 ---
 title: The IBM 029 Card Punch
 description:  >
-    What it was like to program using punch cards.
+    Programming in the days of Big Blue's most popular card punch machine.
 ---
 
 Lines of code longer than 80 characters drive me crazy. I appreciate that this
