@@ -44,7 +44,7 @@ were around as early as the 1890s.
 One of the most widely used card punch machines was the IBM 029. It is perhaps
 the best remembered card punch today.
 
-![](/images/ibm029.jpg)
+![](/images/ibm029_front.jpg)
 
 The IBM 029 was released in 1964 as part of IBM's System/360 rollout.
 System/360 was a family of computing systems and peripherals that would go on
