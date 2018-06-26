@@ -7,19 +7,16 @@ description:  >
 Lines of code longer than 80 characters drive me crazy. I appreciate that this
 is pedantic. I've seen people on the internet make good arguments for why the
 80-character limit ought to be respected even on our modern Retina-display
-screens: It ensures that people can do things like compare three versions of
-the same file side-by-side while resolving merge conflicts. But that hardly
-justifies the visceral hatred I feel for even that one protruding 81st
-character.
+screens, but those arguments hardly justify the visceral hatred I feel for even
+that one protruding 81st character.
 
 There was once a golden era in which it was basically impossible to go over the
 80-character limit. The 80-character limit was a physical reality, because
 there was no 81st column for an 81st character to fit in. Any programmers
 attempting to name a function something like
 `TakesTwoIntsAndAddsThemTogetherReturningTheResultAsAnotherInt()` would
-discover, in a moment of delicious, slow-dawning horror, that they just _have_
-to pick a better name because there literally isn't room for the whole
-declaration.
+discover, in a moment of delicious, slow-dawning horror, that there literally
+isn't room for their whole declaration.
 <!--more-->
 
 This golden era was the era of punch card programming. By the 1960s, IBM's
