@@ -1,5 +1,6 @@
 ---
 title: 'Important Papers: Codd and the Relational Model'
+has_math: true
 ---
 It's hard to believe today, but the relational database was once the cool new
 kid on the block. In 2017, the relational model competes with all sorts of

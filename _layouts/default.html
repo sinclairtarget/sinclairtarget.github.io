@@ -22,11 +22,16 @@
     <!-- RSS -->
     {% feed_meta %}
 
+    <!-- Dropdown Menu -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
             crossorigin="anonymous"></script>
     <script src="{{ site.url }}{% link scripts/dropdown.js %}"></script>
+
+    <!-- MathJax -->
+    {% if page.has_math %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    {% endif %}
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108160350-1"></script>
