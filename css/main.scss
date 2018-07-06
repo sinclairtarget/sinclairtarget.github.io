@@ -11,14 +11,14 @@ html, body {
 
 body {
     font-family: 'AdobeGaramond', serif;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     line-height: 1.5;
     color: $font-color;
 }
 
 article {
-    font-size: 1.9rem;
     line-height: 1.6;
+    overflow-wrap: break-word;
 }
 
 .code-title {
@@ -26,22 +26,23 @@ article {
 }
 
 pre {
+    font-size: 1.5rem;
     background-color: $pre-background-color;
     border: 1px solid $pre-border-color;
     border-radius: 5px;
     padding: 12px;
     overflow: scroll;
     margin: 1.8em 0;
-    font-size: 1.5rem;
 }
 
 :not(pre) > code {
+    font-family: monospace, monospace; // Avoid shrinking in Chrome
     font-size: 1.5rem;
     background-color: $pre-background-color;
     border: 1px solid $pre-border-color;
     border-radius: 5px;
     padding: 0.1em 0.3em;
-    white-space: nowrap;
+    white-space: pre-line;
 }
 
 h1 {
@@ -105,23 +106,12 @@ h1 a {
 }
 
 .footnotes {
-    text-overflow: ellipsis;
-    overflow: hidden;
     max-width: 100%;
     font-size: 1.6rem;
     margin-top: 26px;
     padding: 10px 0;
     border-top: 1px dashed $index-border-color;
     overflow-wrap: break-word;
-
-    a {
-        overflow-wrap: normal;
-        word-break: break-all; // Doesn't work on inline elements in Firefox :(
-    }
-}
-
-.nobr {
-    white-space: nowrap;
 }
 
 .mobile-header {
