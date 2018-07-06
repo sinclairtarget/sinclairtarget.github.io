@@ -12,21 +12,24 @@ html, body {
 body {
     font-family: 'AdobeGaramond', serif;
     font-size: 1.9rem;
-    line-height: 1.5;
     color: $font-color;
 }
 
-article {
+p, li {
     line-height: 1.6;
+}
+
+article {
     overflow-wrap: break-word;
 }
 
 .code-title {
-    font-family: monospace;
+    font-family: monospace, monospace; // Avoid shrinking in Chrome
 }
 
 pre {
     font-size: 1.5rem;
+    line-height: 1.2;
     background-color: $pre-background-color;
     border: 1px solid $pre-border-color;
     border-radius: 5px;
