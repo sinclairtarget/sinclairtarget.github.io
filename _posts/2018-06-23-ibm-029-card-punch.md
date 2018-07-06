@@ -240,5 +240,7 @@ ought to [try it](http://www.masswerk.at/keypunch/) at least once—if only to
 understand why COBOL and FORTRAN look the way they do, or how 80 characters
 somehow became everybody's favorite character limit.
 
+{% include subscribe.html %}
+
 [^1]: "IBM 29 Card Punch," IBM Archives, accessed June 23, 2018, <https://www-03.ibm.com/ibm/history/exhibits/vintage/vintage_4506VV4002.html>.
 [^2]: IBM, IBM 2540 Component Description and Operation Procedures (Rochester, MN: IBM Product Publications, 1965), September 06, 2009, accessed June 23, 2018, <http://bitsavers.informatik.uni-stuttgart.de/pdf/ibm/25xx/A21-9033-1_2540_Card_Punch_Component_Description_1965.pdf>.
