@@ -1,7 +1,8 @@
-# A Blog with Jekyll
+# Two-Bit History
 
-Jekyll is static site generator. It lets you use templates and layouts like
-you might for a database-backed web app, but it processes those templates into
-static files only when your content changes.
+A Jekyll blog.
 
-Jekyll makes your website faster and hassle-free!
+## Before Pushing
+* Run `aspell check`
+* Add description meta-field
+* Double-check excerpt
