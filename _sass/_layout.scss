@@ -49,8 +49,38 @@ header {
     right: calc(100% + #{$header-offset});
     top: 40px;
     width: $header-width;
+    display: none;
+}
 
-    @media (max-width: $main-with-header-extent) {
+.mobile-header {
+    overflow: hidden;
+    padding-bottom: 0.8em;
+    text-align: right;
+
+    .dropdown-toggle {
+        overflow: hidden;
+    }
+
+    h1 {
+        margin: 0;
+        margin-right: 12px;
+        float: right;
+        width: 200px;
+        line-height: 0.8;
+    }
+
+    .dropdown-arrow {
+        float: right;
+        margin-top: 0.5em;
+    }
+}
+
+@media (min-width: $main-with-header-extent) {
+    header {
+        display: block;
+    }
+
+    .mobile-header {
         display: none;
     }
 }
@@ -82,16 +112,6 @@ header ul, .mobile-header ul, ul.index {
     }
 }
 
-.post-header {
-    margin-bottom: 2em;
-}
-
-article img {
-    max-width: 100%;
-    margin: 36px auto;
-    display: block;
-}
-
 ul.index {
     margin: 0;
 
@@ -108,36 +128,14 @@ ul.index {
     }
 }
 
-footer {
-    padding-top: 30px;
-    text-align: center;
+.post-header {
+    margin-bottom: 2em;
 }
 
-.mobile-header {
-    @media (min-width: $main-with-header-extent) {
-        display: none;
-    }
-
-    overflow: hidden;
-    padding-bottom: 0.8em;
-    text-align: right;
-
-    .dropdown-toggle {
-        overflow: hidden;
-    }
-
-    h1 {
-        margin: 0;
-        margin-right: 12px;
-        float: right;
-        width: 200px;
-        line-height: 0.8;
-    }
-
-    .dropdown-arrow {
-        float: right;
-        margin-top: 0.5em;
-    }
+article img {
+    max-width: 100%;
+    margin: 36px auto;
+    display: block;
 }
 
 blockquote {
@@ -148,4 +146,9 @@ blockquote {
         margin-left: 40px;
         margin-right: 40px;
     }
+}
+
+footer {
+    padding-top: 30px;
+    text-align: center;
 }
