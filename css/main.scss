@@ -121,27 +121,25 @@ h1 a {
     }
 }
 
-.mobile-header {
-    border-bottom: 1px dashed $index-border-color;
-}
-
-.arrow-down, .arrow-up {
+.dropdown-arrow {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-}
-
-.arrow-down {
-    border-top: 10px solid darkgray;
-}
-
-.arrow-up {
     border-bottom: 10px solid black;
 }
 
-.closed {
-    display: none;
+.mobile-header {
+    border-bottom: 1px dashed $index-border-color;
+
+    &.closed .dropdown-arrow {
+        border-top: 10px solid darkgray;
+        border-bottom: none;
+    }
+
+    &.closed .dropdown {
+        display: none;
+    }
 }
 
 img.icon {
