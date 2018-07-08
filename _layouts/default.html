@@ -117,13 +117,15 @@
       (function() {
           var header = document.querySelector('.mobile-header');
           if (header) {
-            header.addEventListener('click', function(e) {
+            var handleToggle = function(e) {
                 e.preventDefault();
                 if (header.classList.contains('closed'))
                     header.classList.remove('closed');
                 else
                     header.classList.add('closed');
-            });
+            };
+            header.addEventListener('click', handleToggle);
+            header.addEventListener('touchend', handleToggle);
           }
       })();
     </script>
