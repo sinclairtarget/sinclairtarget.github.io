@@ -118,6 +118,9 @@
           var header = document.querySelector('.mobile-header');
           if (header) {
             var handleToggle = function(e) {
+                if (e.target && e.target.matches('a'))
+                  return;
+
                 e.preventDefault();
                 if (header.classList.contains('closed'))
                     header.classList.remove('closed');
