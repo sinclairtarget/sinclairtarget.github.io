@@ -199,7 +199,7 @@ The syntax is not important, especially since RDF can be represented in a
 number of formats, including XML and JSON. This example is in a format called
 Turtle, which expresses RDF triplets as straightforward sentences terminated by
 periods. The three essential sentences, which appear above after the `@prefix`
-preamble, state three facts: Vincent Donofrio stared in _Law and Order_, _Law
+preamble, state three facts: Vincent Donofrio starred in _Law and Order_, _Law
 and Order_ is a type of TV Show, and the movie _The Thirteenth Floor_ has a
 similar plot as _The Matrix_. (If you don't know who Vincent Donofrio is and
 have never seen _The Thirteenth Floor_, I, too, was watching Nickelodeon and
