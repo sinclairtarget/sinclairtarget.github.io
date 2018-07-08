@@ -22,9 +22,6 @@
     <!-- RSS -->
     {% feed_meta %}
 
-    <!-- Dropdown Menu -->
-    <script src="{{ site.url }}{% link scripts/dropdown.js %}"></script>
-
     <!-- MathJax -->
     {% if page.has_math %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
@@ -117,5 +114,20 @@
         <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
       </a>
     </footer>
+    <!-- Dropdown Menu -->
+    <script>
+      (function() {
+          var header = document.querySelector('.mobile-header');
+          if (header) {
+            header.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (header.classList.contains('closed'))
+                    header.classList.remove('closed');
+                else
+                    header.classList.add('closed');
+            });
+          }
+      })();
+    </script>
   </body>
 </html>
