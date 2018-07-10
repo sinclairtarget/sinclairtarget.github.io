@@ -11,12 +11,22 @@ html, body {
 
 body {
     font-family: 'AdobeGaramond', serif;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     color: $font-color;
 }
 
 p, li {
-    line-height: 1.6;
+    line-height: 1.5;
+}
+
+@media (min-width: $main-with-header-extent) {
+    body {
+        font-size: 1.9rem;
+    }
+
+    p, li {
+        line-height: 1.6;
+    }
 }
 
 // Punch card post has really long inline code block
