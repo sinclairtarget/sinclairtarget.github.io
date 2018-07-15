@@ -17,8 +17,8 @@ programming lanugage in pursuit of better peformance, or perhaps timesaving
 abstractions—the Ruby story is interesting because instead the goal was, from
 the very beginning, nothing more or less than the happiness of the programmer.
 
-## Yukihrio Matsumoto
-Yukihrio Matsumoto, also known as "Matz," graduated from the University of
+## Yukihiro Matsumoto
+Yukihiro Matsumoto, also known as "Matz," graduated from the University of
 Tsukuba in 1990. Tsukuba is a small town just northeast of Tokyo, known as a
 center for scientific research and technological devlopment. The University of
 Tsukuba is particularly well-regarded for its STEM programs. Matsumoto studied
