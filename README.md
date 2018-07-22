@@ -6,3 +6,5 @@ A Jekyll blog.
 * Run `aspell check`
 * Add description meta-field
 * Double-check excerpt
+* Add subscribe.html include
+* Add previous post tweet embed
