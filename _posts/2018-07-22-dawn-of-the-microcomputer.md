@@ -225,6 +225,7 @@ instructions involve 14 words of memory altogether, which takes some time to
 input correctly. The sample program also appears in the Altair manual in table
 form, which I've reproduced here:
 
+<div markdown="block" class="table-container">
 | Address | Mnemonic | Bit Pattern | Octal Equivalent |
 | ------- | -------- | ----------- | ---------------- |
 | 0       | LDA      | 00 111 010  | 0 7 2            |
@@ -241,6 +242,8 @@ form, which I've reproduced here:
 | 11      | JMP      | 11 000 011  | 3 0 3            |
 | 12      | (address)| 00 000 000  | 0 0 0            |
 | 13      | (address)| 00 000 000  | 0 0 0            |
+
+</div>
 
 If you input each word in the above table into the Altair via the switches, you
 end up with a program that loads the value in word 128, adds it to the value in
