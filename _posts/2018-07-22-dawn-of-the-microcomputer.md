@@ -330,6 +330,23 @@ bare-essentials blueprint for all that would follow.
 
 {% include subscribe.html %}
 
+_Previously on TwoBitHistory..._
+
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">
+    &quot;I invite you to come along with me on an exciting journey and spend
+    the next ten minutes of your life learning about a piece of software nobody
+    has used in the last decade.&quot;
+    <a href="https://t.co/R9zA5ibFMs">https://t.co/R9zA5ibFMs</a>
+</p>
+&mdash; TwoBitHistory (@TwoBitHistory)
+<a href="https://twitter.com/TwoBitHistory/status/1015647820353867776?ref_src=twsrc%5Etfw">
+    July 7, 2018
+</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+</script>
+
 [^1]: Paul E. Ceruzzi, A History of Modern Computing (Cambridge, Mass: MIT Press, 2003), 226.
 [^2]: "Mark-8 Minicomputer," Byran's Old Computers, accessed July 21, 2018, http://bytecollector.com/mark_8.htm.
 [^3]: Paul E. Ceruzzi, A History of Modern Computing (Cambridge, Mass: MIT Press, 2003), 226.
