@@ -8,3 +8,4 @@ A Jekyll blog.
 * Double-check excerpt
 * Add subscribe.html include
 * Add previous post tweet embed
+* Add post to timeline
