@@ -1,7 +1,7 @@
 ---
 title: 'Dawn of the Microcomputer: The Altair 8800'
 description: >
-    What it was like using the Altair, the first ever personal computer.
+    What it was like using the Altair, the first successful personal computer.
 ---
 Subscribers to _Popular Electronics_ were a sophisticated group. The magazine's
 editor, Arthur Salsberg, felt compelled to point out as much in the editorial
