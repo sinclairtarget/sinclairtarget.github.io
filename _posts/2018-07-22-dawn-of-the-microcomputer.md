@@ -52,7 +52,7 @@ Salsberg wrote in that issue, "the home computer age is here—finally."
 I have written briefly about [the Altair before]({% link
 _posts/2017-12-02-simulating-the-altair.md %}), but I think the Altair is worth
 revisiting. It was not an especially powerful computer compared to others
-available at the time (though it costed significantly less money). Nor was it
+available at the time (though it cost significantly less money). Nor was it
 the first general-purpose computer to incorporate a microprocessor chip—at
 least three microprocessor-based computers preceded it. But the Altair was and
 is a kind of Ur-Computer for all of us. It was the first computer in a lineage
