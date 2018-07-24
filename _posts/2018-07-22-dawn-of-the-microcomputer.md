@@ -55,16 +55,16 @@ revisiting. It was not an especially powerful computer compared to others
 available at the time (though it cost significantly less money). Nor was it
 the first general-purpose computer to incorporate a microprocessor chip—at
 least three microprocessor-based computers preceded it. But the Altair was and
-is a kind of Ur-Computer for all of us. It was the first computer in a lineage
-that includes our own devices, whereas the mainframes and bulky minicomputers
-that predated the Altair were an entirely different kind of machine, programmed
-by punched card or else rarely interacted with directly. The Altair was also a
-radically simple computer, without any kind of operating system or even a
-bootloader. Unless you bought peripherals for it, the Altair was practically a
-bank of RAM with switches and lights on the front. The Altair's simplicity
-makes learning about it a great way to reacquaint yourself with the basic
-concepts of computing, exactly as they were encountered by the denizens of the
-old analog world as they first ventured into our digital one.
+is a kind of Ur-Computer for all of us. It was the first popular computer in a
+lineage that includes our own devices, whereas the mainframes and bulky
+minicomputers that predated the Altair were an entirely different kind of
+machine, programmed by punched card or else rarely interacted with directly.
+The Altair was also a radically simple computer, without any kind of operating
+system or even a bootloader. Unless you bought peripherals for it, the Altair
+was practically a bank of RAM with switches and lights on the front. The
+Altair's simplicity makes learning about it a great way to reacquaint yourself
+with the basic concepts of computing, exactly as they were encountered by the
+denizens of the old analog world as they first ventured into our digital one.
 
 ## Roberts and Co.
 The Altair was designed and manufactured by a company called Micro
