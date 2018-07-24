@@ -25,7 +25,7 @@ I am surprised that anyone familiar with _Popular Electronics_ could ever have
 doubted its subscribers. I certainly haven't repaired a TV in the last 60 days.
 My computer is a block of aluminum that I have never seen the inside of. Yet
 the December 1974 issue of _Popular Electronics_ features articles such as
-"Standing Wave Radio: What It Is and How to Deal with It" and "Test Scene: Uses
+"Standing Wave Ratio: What It Is and How to Deal with It" and "Test Scene: Uses
 for Your Multimeter." Even the ads are intimidating. One of them, which seems
 to be for some kind of stereo system, boldly proclaims that "no piece of audio
 equipment is as eagerly awaited as the 'one four-channel unit that does
