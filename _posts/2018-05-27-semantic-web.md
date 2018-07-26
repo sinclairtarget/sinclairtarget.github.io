@@ -3,6 +3,7 @@ title: Whatever Happened to the Semantic Web?
 description: >
     In 2001, Tim Berners-Lee, inventor of the World Wide Web, published an
     article in Scientific American.
+tags: ['Web', 'Languages']
 ---
 In 2001, Tim Berners-Lee, inventor of the World Wide Web, published an article
 in Scientific American. Berners-Lee, along with two other researchers, Ora

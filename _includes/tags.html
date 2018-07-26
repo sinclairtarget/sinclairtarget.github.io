@@ -1,0 +1,7 @@
+<ul class="tags">
+  {% for tag in include.tags %}
+  <li class="{{ tag | downcase }}">
+      {{ tag }}
+    </li>
+  {% endfor %}
+</ul>

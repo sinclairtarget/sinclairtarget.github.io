@@ -1,5 +1,6 @@
 ---
 title: The Lineage of Man
+tags: ['Tools']
 ---
 I've always found man pages fascinating. Formatted as strangely as they are and
 accessible primarily through the terminal, they have always felt to me like

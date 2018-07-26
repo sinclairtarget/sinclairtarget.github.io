@@ -1,0 +1,44 @@
+@import 'colors';
+
+ul.tags {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.3rem;
+
+    li {
+        display: inline-block;
+        padding: 0 0.4em;
+        border-radius: 5px;
+    }
+
+    li.hardware {
+        border: 1px solid $hardware-tag-border-color;
+        background-color: $hardware-tag-background-color;
+    }
+
+    li.emulators {
+        border: 1px solid $emulators-tag-border-color;
+        background-color: $emulators-tag-background-color;
+    }
+
+    li.web {
+        border: 1px solid $web-tag-border-color;
+        background-color: $web-tag-background-color;
+    }
+
+    li.tools {
+        border: 1px solid $tools-tag-border-color;
+        background-color: $tools-tag-background-color;
+    }
+
+    li.languages {
+        border: 1px solid $languages-tag-border-color;
+        background-color: $languages-tag-background-color;
+    }
+
+    li.papers {
+        border: 1px solid $papers-tag-border-color;
+        background-color: $papers-tag-background-color;
+    }
+}

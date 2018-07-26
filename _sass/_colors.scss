@@ -5,3 +5,22 @@ $link-color: #326891; // Thanks, NYT!
 $visited-link-color: #7b3291;
 $index-border-color: gray;
 $table-banding-color: #ebeff5;
+
+// tag colors
+$hardware-tag-background-color: hsl(0, 60, 90);
+$hardware-tag-border-color: darken($hardware-tag-background-color, 20%);
+
+$emulators-tag-background-color: hsl(26, 60, 90);
+$emulators-tag-border-color: darken($emulators-tag-background-color, 20%);
+
+$web-tag-background-color: hsl(52, 60, 90);
+$web-tag-border-color: darken($web-tag-background-color, 20%);
+
+$tools-tag-background-color: hsl(80, 60, 90);
+$tools-tag-border-color: darken($tools-tag-background-color, 20%);
+
+$languages-tag-background-color: hsl(130, 60, 90);
+$languages-tag-border-color: darken($languages-tag-background-color, 20%);
+
+$papers-tag-background-color: hsl(175, 60, 90);
+$papers-tag-border-color: darken($papers-tag-background-color, 20%);

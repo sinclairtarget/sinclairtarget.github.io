@@ -2,6 +2,7 @@
 title: The World Wide Web and Its Inventor
 description:  >
     The fascinating story of Tim Berners-Lee and the invention of the web.
+tags: ['Web']
 ---
 The miraculous thing about Tim Berners-Lee is that he was the perfect person
 for the job.

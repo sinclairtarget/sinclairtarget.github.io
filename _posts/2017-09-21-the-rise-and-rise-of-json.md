@@ -11,6 +11,7 @@ excerpt: >
     has also been widely adopted by the programming rank and file: According to
     Stack Overflow, a question and answer site for programmers, more questions
     are now asked about JSON than about any other data interchange format.
+tags: ['Web', 'Languages']
 ---
 JSON has taken over the world. Today, when any two applications communicate
 with each other across the internet, odds are they do so using JSON. It has

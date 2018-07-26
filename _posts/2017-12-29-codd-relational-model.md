@@ -1,5 +1,6 @@
 ---
 title: 'Important Papers: Codd and the Relational Model'
+tags: ['Papers']
 has_math: true
 ---
 It's hard to believe today, but the relational database was once the cool new

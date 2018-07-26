@@ -5,6 +5,7 @@
 @import 'fonts';
 @import 'layout';
 @import 'table';
+@import 'tags';
 
 html, body {
     font-size: 62.5%;
@@ -99,7 +100,7 @@ header ul, .mobile-header ul, ul.index {
     list-style: none;
 }
 
-ul.index li {
+ul.index > li {
     border-bottom: 1px dashed $index-border-color;
 
     &:last-child {

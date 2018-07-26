@@ -9,3 +9,11 @@ A Jekyll blog.
 * Add subscribe.html include
 * Add previous post tweet embed
 * Add post to timeline
+
+## Tags
+* Web
+* Hardware
+* Emulators
+* Tools
+* Languages
+* Papers
