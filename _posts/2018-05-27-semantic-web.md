@@ -4,6 +4,7 @@ description: >
     In 2001, Tim Berners-Lee, inventor of the World Wide Web, published an
     article in Scientific American.
 tags: ['Web', 'Languages']
+year: 2001
 ---
 In 2001, Tim Berners-Lee, inventor of the World Wide Web, published an article
 in Scientific American. Berners-Lee, along with two other researchers, Ora

@@ -3,6 +3,7 @@ title: The IBM 029 Card Punch
 description:  >
     Programming in the days of Big Blue's most popular card punch machine.
 tags: ['Tools']
+year: 1964
 ---
 
 Lines of code longer than 80 characters drive me crazy. I appreciate that this

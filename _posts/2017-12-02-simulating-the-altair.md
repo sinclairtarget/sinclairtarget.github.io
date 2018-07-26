@@ -1,6 +1,7 @@
 ---
 title: Simulating the Altair
 tags: ['Hardware', 'Emulators']
+year: 1975
 ---
 The [Altair 8800](https://en.wikipedia.org/wiki/Altair_8800) was a
 build-it-yourself home computer kit released in 1975. The Altair was basically

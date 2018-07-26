@@ -1,6 +1,7 @@
 ---
 title: The Ruby Story
 tags: ['Languages', 'Web']
+year: 1993
 ---
 Ruby has always been one of my favorite languages, though I've sometimes found
 it hard to express why that is. The best I've been able to do is this musical
