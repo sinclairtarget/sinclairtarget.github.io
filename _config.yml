@@ -1,12 +1,18 @@
 name: Two-Bit History
+title: Two-Bit History
 url: https://twobithistory.org
 excerpt_separator: <!--more-->
 defaults:
   -
     scope:
+      path: ""
+    values:
+      title: 'Two-Bit History'
+      layout: "default"
+  -
+    scope:
       path: "_posts"
     values:
       layout: "post"
-      comments: true
 plugins:
   - jekyll-feed

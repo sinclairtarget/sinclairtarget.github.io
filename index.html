@@ -2,14 +2,4 @@
 layout: default
 title: Two-Bit History
 ---
-<ul class="index">
-  {% for post in site.posts %}
-    <li>
-      {% include post-header.html post=post %}
-      <article>
-        {{ post.excerpt }}
-      </article>
-      <p><a href="{{ post.url }}">Read More&hellip;</a></p>
-    </li>
-  {% endfor %}
-</ul>
+{% include post-list.html posts=site.posts %}
