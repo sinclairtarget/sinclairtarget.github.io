@@ -92,14 +92,15 @@ ul.index {
 
     & > li {
         padding: 20px 0;
+        padding-bottom: 26px;
         border-bottom: 1px dashed $index-border-color;
 
         &:first-child {
             padding-top: 0;
         }
 
-        &:last-child {
-            padding-bottom: none;
+        & > :last-child {
+            margin-bottom: 0;
         }
     }
 }

@@ -1,7 +1,7 @@
 <ul class="tags">
   {% for tag in include.tags %}
     <li class="{{ tag | downcase }}">
-      <a href="{{ site.baseurl }}/tags/{{ tag | downcase }}">
+      <a href="{{ site.baseurl }}/tags/{{ tag | downcase }}.html">
         {{ tag }}
       </a>
     </li>
