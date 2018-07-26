@@ -5,11 +5,7 @@ title: Two-Bit History
 <ul class="index">
   {% for post in site.posts %}
     <li>
-      <div class="post-header">
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        {% include tags.html tags=post.tags %}
-        <p class="meta"><em>{{ post.date | date_to_string }}</em></p>
-      </div>
+      {% include post-header.html post=post %}
       <article>
         {{ post.excerpt }}
       </article>

@@ -1,0 +1,23 @@
+@import 'colors';
+
+pre {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    background-color: $pre-background-color;
+    border: 1px solid $pre-border-color;
+    border-radius: 5px;
+    padding: 12px;
+    overflow: scroll;
+    margin: 1.8em 0;
+}
+
+:not(pre) > code {
+    font-family: monospace, monospace; // Avoid shrinking in Chrome
+    font-size: 1.5rem;
+    background-color: $pre-background-color;
+    border: 1px solid $pre-border-color;
+    border-radius: 5px;
+    padding: 0.1em 0.3em;
+    white-space: pre-line;
+}
+

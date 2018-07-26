@@ -3,67 +3,53 @@
 
 @import 'colors';
 @import 'fonts';
-@import 'layout';
 @import 'table';
+@import 'code';
+@import 'header';
 @import 'tags';
 
+* {
+    box-sizing: border-box;
+}
+
 html, body {
+    margin: 0;
+    padding: 0;
     font-size: 62.5%;
 }
 
 body {
+    padding: $body-padding;
     font-family: 'AdobeGaramond', serif;
     font-size: 1.8rem;
     color: $font-color;
 }
 
-p, li {
-    line-height: 1.5;
+main {
+    margin: auto;
+    max-width: $main-max-width;
+    position: relative;
 }
 
-@media (min-width: $main-with-header-extent) {
-    body {
-        font-size: 1.9rem;
-    }
-
-    p, li {
-        line-height: 1.6;
-    }
+h1 {
+    margin: 0.2em 0;
 }
 
-// Punch card post has really long inline code block
-article p {
-    overflow-wrap: break-word;
+h2, h3 {
+    margin: 0.4em 0;
 }
 
-.code-title {
-    font-family: monospace, monospace; // Avoid shrinking in Chrome
-}
-
-pre {
-    font-size: 1.5rem;
-    line-height: 1.2;
-    background-color: $pre-background-color;
-    border: 1px solid $pre-border-color;
-    border-radius: 5px;
-    padding: 12px;
-    overflow: scroll;
-    margin: 1.8em 0;
-}
-
-:not(pre) > code {
-    font-family: monospace, monospace; // Avoid shrinking in Chrome
-    font-size: 1.5rem;
-    background-color: $pre-background-color;
-    border: 1px solid $pre-border-color;
-    border-radius: 5px;
-    padding: 0.1em 0.3em;
-    white-space: pre-line;
+h1 + p, h2 + p, h3 + p {
+    margin-top: 0;
 }
 
 h1 {
     font-size: 3.8rem;
     line-height: 1.2;
+}
+
+p, li {
+    line-height: 1.5;
 }
 
 a {
@@ -78,9 +64,52 @@ a {
     }
 }
 
-.tagline {
-    font-size: 1.4rem;
-    font-style: italic;
+a.title-link {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+@media (min-width: $main-with-header-extent) {
+    body {
+        font-size: 1.9rem;
+    }
+
+    p, li {
+        line-height: 1.6;
+    }
+}
+
+ul.index {
+    margin: 0;
+
+    & > li {
+        padding: 20px 0;
+        border-bottom: 1px dashed $index-border-color;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            padding-bottom: none;
+        }
+    }
+}
+
+.post-header {
+    margin-bottom: 1.6em;
+
+    p.meta {
+        margin: 0.5em 0;
+    }
 }
 
 // Make sure that superscript (e.g. for footnotes) doesn't mess with line
@@ -91,33 +120,26 @@ sup {
     top: -0.4em;
 }
 
-header {
-    font-family: Helvetica, sans-serif;
-    border-right: 1px solid black;
-}
+article {
+    // Punch card post has really long inline code block
+    p {
+        overflow-wrap: break-word;
+    }
 
-header ul, .mobile-header ul, ul.index {
-    list-style: none;
-}
-
-ul.index > li {
-    border-bottom: 1px dashed $index-border-color;
-
-    &:last-child {
-        border-bottom: none;
+    img {
+        max-width: 100%;
+        margin: 36px auto;
+        display: block;
     }
 }
 
-h1 a {
-    text-decoration: none;
-    color: inherit;
+blockquote {
+    margin-left: 20px;
+    margin-right: 20px;
 
-    &:hover {
-        text-decoration: underline;
-    }
-
-    &:visited {
-        color: inherit;
+    @media (min-width: $main-with-header-extent) {
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
 
@@ -133,32 +155,16 @@ h1 a {
     }
 }
 
-.dropdown-arrow {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid black;
-}
-
-.mobile-header {
-    border-bottom: 1px dashed $index-border-color;
-
-    &.closed .dropdown-arrow {
-        border-top: 10px solid darkgray;
-        border-bottom: none;
-    }
-
-    &.closed .dropdown {
-        display: none;
-    }
-}
-
 img.icon {
     width: 30px;
     height: 30px;
 }
 
-footer img {
-    max-width: 200px;
+footer {
+    padding-top: 30px;
+    text-align: center;
+
+    img {
+        max-width: 200px;
+    }
 }

@@ -1,0 +1,9 @@
+$main-max-width: 588px;
+$body-padding: 20px;
+$header-width: 180px;
+$header-padding: 24px;
+$header-offset: 48px;
+
+$main-extent: $main-max-width + 2 * $body-padding;
+$main-with-header-extent:
+    $main-extent + 2 * ($header-width + $header-offset);
