@@ -15,8 +15,7 @@ that one protruding 81st character.
 There was once a golden era in which it was basically impossible to go over the
 80-character limit. The 80-character limit was a physical reality, because
 there was no 81st column for an 81st character to fit in. Any programmers
-attempting to name a function something like
-`TakesTwoIntsAndAddsThemTogetherReturningTheResultAsAnotherInt()` would
+attempting to name a function something horrendously long and awful would
 discover, in a moment of delicious, slow-dawning horror, that there literally
 isn't room for their whole declaration.
 <!--more-->
