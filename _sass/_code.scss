@@ -1,30 +1,23 @@
 @import 'colors';
 
-%code-background {
+pre {
+    font-size: 1.5rem;
+    line-height: 1.2;
     background-color: $pre-background-color;
     border: 1px solid $pre-border-color;
     border-radius: 5px;
-}
-
-code {
-    font-family: monospace, monospace; // Avoid shrinking in Chrome
-    font-size: 1.5rem;
-}
-
-pre {
-    @extend %code-background;
-    line-height: 1.2;
     padding: 12px;
     overflow: scroll;
     margin: 1.8em 0;
 }
 
-// Don't want to affect <pre></pre>
 :not(pre) > code {
-    @extend %code-background;
+    font-family: monospace, monospace; // Avoid shrinking in Chrome
+    font-size: 1.5rem;
+    background-color: $pre-background-color;
+    border: 1px solid $pre-border-color;
+    border-radius: 5px;
     padding: 0.1em 0.3em;
-    // Punch card post has really long inline code block
-    // Works on post page but not on index?! Index is in ul?
-    overflow-wrap: break-word !important;
+    white-space: pre-line;
 }
 

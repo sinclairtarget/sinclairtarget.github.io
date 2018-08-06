@@ -122,10 +122,17 @@ sup {
     top: -0.4em;
 }
 
-article img {
-    max-width: 100%;
-    margin: 36px auto;
-    display: block;
+article {
+    // Punch card post has really long inline code block
+    p {
+        overflow-wrap: break-word;
+    }
+
+    img {
+        max-width: 100%;
+        margin: 36px auto;
+        display: block;
+    }
 }
 
 blockquote {
