@@ -139,7 +139,7 @@ Isn't it a terrible day?$
 w foo.txt                   # Write to foo.txt
 38                          # (bytes written)
 q                           # Quit
-[sinclairtarget 10:50 playground]$ cat foo.txt
+[sinclairtarget 10:50 ~]$ cat foo.txt
 Hello world!
 Isn't it a terrible day?
 ```
