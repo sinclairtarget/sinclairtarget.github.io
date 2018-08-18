@@ -4,6 +4,11 @@
 <h1>Timeline</h1>
 
 <div class="timeline">
+{% assign siecle = posts | where_exp: 'item', 'item.year >= 1840'
+   | where_exp: 'item', 'item.year < 1850' %}
+<h2>1840s</h2>
+{% include timeline-list.html posts=siecle %}
+
 {% assign sixties = posts | where_exp: 'item', 'item.year >= 1960'
    | where_exp: 'item', 'item.year < 1970' %}
 <h2>1960s</h2>
