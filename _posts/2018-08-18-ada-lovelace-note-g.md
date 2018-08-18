@@ -400,9 +400,9 @@ own computer. To my frustration, I kept getting the wrong result. After some
 debugging, I finally realized that the problem wasn't the code that I had
 written. The bug was in the original!
 
-In her "diagram of development," Lovelace gives the fourth operation as `v5 /
-v4`. But the correct ordering here is `v4 / v5`. This may well have been a
-typesetting error and not an error in the program that Lovelace devised. All
+In her "diagram of development," Lovelace gives the fourth operation as
+`v5 / v4`. But the correct ordering here is `v4 / v5`. This may well have been
+a typesetting error and not an error in the program that Lovelace devised. All
 the same, this must be the oldest bug in computing. I marveled that, for ten
 minutes or so, unknowingly, I had wrestled with this first ever bug.
 
