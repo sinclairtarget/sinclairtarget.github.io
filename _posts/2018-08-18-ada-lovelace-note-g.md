@@ -283,8 +283,8 @@ part of the same social circle and wrote to each other frequently.
 
 Ada Byron married William King in 1835. King later became the Earl of Lovelace,
 making Ada the Countess of Lovelace. Even after having three children, she
-continued her education in mathematics, employing Augustus de Morgan, inventor
-of De Morgan's laws, as her tutor.[^12] Lovelace saw the potential of
+continued her education in mathematics, employing Augustus de Morgan, who
+discovered De Morgan's laws, as her tutor.[^12] Lovelace saw the potential of
 Babbage's Analytical Machine immediately and was eager to work with him to
 promote the idea. A friend suggested that she translate Menabrea's paper for an
 English audience.[^13]
@@ -376,7 +376,7 @@ obtained.
 Obviously the C translation is not an exact recreation of Lovelace's program.
 It declares variables on the stack, for example, whereas Lovelace's variables
 were more like registers. But it makes obvious the parts of Lovelace's program
-that are so prescient. The C program contains two `while` loops, one nested
+that were so prescient. The C program contains two `while` loops, one nested
 inside the other. Lovelace's program did not have `while` loops exactly, but
 she made groups of operations and in the text of her note specified when they
 should repeat. The variable `v10`, in the original program and in the C
@@ -419,12 +419,12 @@ program."[^18] Maybe that's the right way to think about Lovelace'
 accomplishment. Menabrea published "diagrams of development" in his paper a
 year before Lovelace published her translation. Babbage also wrote more than
 twenty programs that he never published.[^19] So it's not quite accurate to say
-that Lovelace published the first program, though there's always room to
-quibble about what exactly constitutes a "program." Even so, Lovelace's program
-was miles ahead of anything else that had been published before. The longest
-program that Menabrea presented was 11 operations long and contained no loops
-or branches; Lovelace's program contains 25 operations and a nested loop (and
-thus branching). Menabrea wrote the following toward the end of his paper:
+that Lovelace wrote or published the first program, though there's always room
+to quibble about what exactly constitutes a "program." Even so, Lovelace's
+program was miles ahead of anything else that had been published before. The
+longest program that Menabrea presented was 11 operations long and contained no
+loops or branches; Lovelace's program contains 25 operations and a nested loop
+(and thus branching). Menabrea wrote the following toward the end of his paper:
 
 > When once the engine shall have been constructed, the difficulty will be
 > reduced to the making of the cards; but as these are merely the translation
