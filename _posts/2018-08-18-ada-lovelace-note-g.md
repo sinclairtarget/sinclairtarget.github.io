@@ -240,7 +240,7 @@ the number of gears he needed with sufficient accuracy. A working Difference
 Engine would not be built until the 1990s, after the advent of precision
 machining. There is [a great video on
 YouTube](https://www.youtube.com/watch?v=BlbQsKpq3Ak) demonstrating a working
-Difference Engine on loan to the Computer History Museum in San Francisco,
+Difference Engine on loan to the Computer History Museum in Mountain View,
 which is worth watching even just to listen to the marvelous sounds the machine
 makes while it runs.
 
