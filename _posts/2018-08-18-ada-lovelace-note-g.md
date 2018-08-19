@@ -463,7 +463,7 @@ _Previously on TwoBitHistory..._
 [^12]: Isaacson, 17.
 [^13]: Isaacson, 25.
 [^14]: Luigi Menabrea, "Sketch of the Analytical Engine," Scientific Memoirs 3 (1843): 686, accessed August 18, 2018, <https://books.google.com/books/about/Scientific_Memoirs_Selected_from_the_Tra.html?id=qsY-AAAAYAAJ>.
-[^15]: Ada Lovelace, "Sketch of the Analytical Engine," Scientific Memoirs 3 (1843): 712, accessed August 18, 2018, <https://books.google.com/books/about/Scientific_Memoirs_Selected_from_the_Tra.html?id=qsY-AAAAYAAJ>.
+[^15]: Ada Lovelace, "Translator's Notes to M. Menabrea's Memoir," Scientific Memoirs 3 (1843): 712, accessed August 18, 2018, <https://books.google.com/books/about/Scientific_Memoirs_Selected_from_the_Tra.html?id=qsY-AAAAYAAJ>.
 [^16]: Lovelace, 694.
 [^17]: Menabrea, 690.
 [^18]: "Bernoulli number," Wikipedia, accessed August 18, 2018, <https://en.wikipedia.org/wiki/Bernoulli_number>.
