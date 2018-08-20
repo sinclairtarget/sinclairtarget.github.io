@@ -103,13 +103,13 @@ $$3(1^2 + 2^2 + 3^2 + \cdots + n^2) = (n+1)n^2 + (1 + 2 + 3 + \cdots + n)$$
 By substituting the Pythagorean equation for the sum of the first _n_
 integers and doing some algebra, you get this:
 
-$$1^2 + 2^2 + 3^2 + \cdots + n^2 = \frac{n(n+1)(n+2)}{6}$$
+$$1^2 + 2^2 + 3^2 + \cdots + n^2 = \frac{n(n+1)(2n+1)}{6}$$
 
 In 499, the Indian mathematician and astronomer, Aryabhata, published a work
 known as the _Aryabhatiya_, which included a formula for calculating the sum of
 cubes:
 
-$$1^3 + 2^3 + 3^3 + \cdots + n^2 = (1 + 2 + 3 + \cdots + n)^2$$
+$$1^3 + 2^3 + 3^3 + \cdots + n^3 = (1 + 2 + 3 + \cdots + n)^2$$
 
 A formula for the sum of the first _n_ positive integers raised to the fourth
 power wasn't published for another 500 years.[^3]
