@@ -2,6 +2,7 @@ name: Two-Bit History
 title: Two-Bit History
 url: https://twobithistory.org
 excerpt_separator: <!--more-->
+paginate: 10
 defaults:
   -
     scope:
@@ -21,3 +22,4 @@ defaults:
       layout: "post"
 plugins:
   - jekyll-feed
+  - jekyll-paginate

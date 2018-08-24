@@ -1,0 +1,14 @@
+div.pagination {
+    padding: 26px 0;
+    text-align: center;
+
+    .next {
+        position: absolute;
+        right: 0;
+    }
+
+    .previous {
+        position: absolute;
+        left: 0;
+    }
+}
