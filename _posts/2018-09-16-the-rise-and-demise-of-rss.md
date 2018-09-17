@@ -3,7 +3,7 @@ title: The Rise and Demise of RSS
 year: 2000
 tags: ['Web']
 description: >
-    The unabridged history of RSS' triumphs and failures.
+    An unabridged history of RSS' triumphs and failures.
 ---
 There are two stories here. The first is a story about a vision of the web's
 future that never quite came to fruition. The second is a story about how a
