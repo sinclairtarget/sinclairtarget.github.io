@@ -282,7 +282,7 @@ W3C seems to be one of retrenchment and introspection, perhaps in the hope of
 being better prepared when the Semantic Web looks promising again.
 
 ## A Lingering Legacy
-And so the Semantic Web, as colorfully described by one blogger, is "as dead as
+And so the Semantic Web, as colorfully described by one person, is "as dead as
 last year's roadkill."[^14] At least, the version of the Semantic Web
 originally proposed by Tim Berners-Lee, which once seemed to be the imminent
 future of the web, is unlikely to emerge soon. That said, many of the
@@ -374,6 +374,6 @@ Semantic Web seduced so many people.
 [^11]: Sporny, Manu. "The Origins of JSON-LD." The Beautiful, Tormented Machine. January 19, 2014. Accessed May 26, 2018. <http://manu.sporny.org/2014/json-ld-origins/>.
 [^12]: "Data Model." Schema.org. Accessed May 26, 2018. <http://schema.org/docs/datamodel.html>.
 [^13]: Raggett, Dave. "W3C Study of Practices and Tooling for Web Data Standardisation." W3C. December 2017. Accessed May 26, 2018. <https://www.w3.org/2017/12/odi-study/>.
-[^14]: Rochkind, Jonathan. "Is the Semantic Web Still a Thing?" Bibliographic Wilderness. October 28, 2014. Accessed May 26, 2018. <https://bibwild.wordpress.com/2014/10/28/is-the-semantic-web-still-a-thing/>.
+[^14]: Rochkind, Jonathan. "Is the Semantic Web Still a Thing?" Bibliographic Wilderness. October 28, 2014. Accessed May 26, 2018. <https://bibwild.wordpress.com/2014/10/28/is-the-semantic-web-still-a-thing/>. Quoting Hacker News user "bane." <https://news.ycombinator.com/item?id=8510970>.
 [^15]: Sporny, Manu. "JSON-LD and Why I Hate the Semantic Web." The Beautiful, Tormented Machine. January 21, 2014. Accessed May 26, 2018. <http://manu.sporny.org/2014/json-ld-origins-2/>.
 [^16]: Palmer, Sean B.
