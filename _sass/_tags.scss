@@ -47,4 +47,9 @@ ul.tags {
         border: 1px solid $papers-tag-border-color;
         background-color: $papers-tag-background-color;
     }
+
+    li.networking {
+        border: 1px solid $networking-tag-border-color;
+        background-color: $networking-tag-background-color;
+    }
 }
