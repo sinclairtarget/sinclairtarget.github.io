@@ -132,8 +132,15 @@ article {
 
     img {
         max-width: 100%;
-        margin: 36px auto;
+        margin: 36px auto 12px auto ;
         display: block;
+    }
+
+    img + em {
+        display: block;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 24px;
     }
 }
 
