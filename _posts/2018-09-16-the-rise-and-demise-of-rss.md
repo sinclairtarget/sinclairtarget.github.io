@@ -1,15 +1,22 @@
 ---
-title: The Rise and Demise of RSS
-year: 2000
+title: The Rise and Demise of RSS (Old Version)
 tags: ['Web']
 description: >
     An unabridged history of RSS' triumphs and failures.
+excerpt: >
+    There are two stories here. The first is a story about a vision of the
+    web's future that never quite came to fruition. The second is a story about
+    how a collaborative effort to improve a popular standard devolved into one
+    of the most contentious forks in the history of open-source software
+    development.
 ---
+_A newer version of this post was published on [December 18th, 2018]({% link
+_posts/2018-12-18-rss.md %})._
+
 There are two stories here. The first is a story about a vision of the web's
 future that never quite came to fruition. The second is a story about how a
 collaborative effort to improve a popular standard devolved into one of the
 most contentious forks in the history of open-source software development.
-<!--more-->
 
 In the late 1990s, in the go-go years between Netscape's IPO and the Dot-com
 crash, everyone could see that the web was going to be an even bigger deal
