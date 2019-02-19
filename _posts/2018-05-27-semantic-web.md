@@ -346,7 +346,7 @@ So the problems that confronted the Semantic Web were more numerous and
 profound than just "XML sucks." All the same, it's hard to believe that the
 Semantic Web is truly dead and gone. Some of the particular technologies that
 the W3C dreamed up in the early 2000s may not have a future, but the
-decentralized vision of the web that Tim Berners-Lee and his follow researchers
+decentralized vision of the web that Tim Berners-Lee and his fellow researchers
 described in Scientific American is too compelling to simply disappear. Imagine
 a web where, rather than filling out the same tedious form every time you
 register for a service, you were somehow able to authorize services to get that
