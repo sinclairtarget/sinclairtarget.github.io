@@ -1,0 +1,31 @@
+---
+description: A blog about the technical side of computing history.
+---
+{% assign posts = site.posts | where_exp: 'item', 'item.translations != nil' %}
+<h1>Translations</h1>
+<p>I am lazily monolingual so I don't know whether these are good or bad
+translations. But I'm flattered that anyone would translate my writing and in
+return I thought it would be nice to advertize the work that these translators
+have done.
+</p>
+<p>
+If you have made a translation that you think should be featured here, please
+let me know.
+</p>
+<ul class="translations-list">
+{% for post in posts %}
+  <li>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <ul>
+    {% for translation in post.translations %}
+    {% comment %}
+    Bit of a hack here to use "slugify" to remove "/" from id.
+    {% endcomment %}
+      <li id="{{ post.id | slugify }}">
+        <a href="{{ translation.url }}">{{ translation.language }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
