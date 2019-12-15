@@ -4,6 +4,9 @@ description: >
     Tracing the long lineage of software that brought us Vim.
 tags: ['Tools']
 year: 1991
+translations:
+    - language: 'Mandarin (Simplified)'
+      url: 'https://github.com/jobbole/translation-project/blob/trans/translation/Where-Vim-Came-From.md'
 ---
 
 I recently stumbled across a file format known as Intel HEX. As far as I can

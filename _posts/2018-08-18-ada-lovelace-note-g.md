@@ -6,6 +6,9 @@ description: >
 tags: ['Papers']
 has_math: true
 year: 1843
+translations:
+    - language: Spanish
+      url: 'http://www.adalovelaceacademy.org/que-hacia-realmente-el-programa-de-ada-lovelace/'
 ---
 The story of Microsoft's founding is one of the most famous episodes in
 computing history. In 1975, Paul Allen flew out to Albuquerque to demonstrate
