@@ -6,6 +6,8 @@ tags: ['Tools']
 year: 1991
 translations:
     - language: 'Mandarin (Simplified)'
+      url: 'https://blog.batkiz.com/2018/10/23/where-vim-came-from/'
+    - language: 'Mandarin (Simplified)'
       url: 'https://github.com/jobbole/translation-project/blob/trans/translation/Where-Vim-Came-From.md'
 ---
 
