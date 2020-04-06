@@ -10,6 +10,11 @@ description: A blog about the technical side of computing history.
 <h2>1840s</h2>
 {% include timeline-list.html posts=siecle %}
 
+{% assign thirties = posts | where_exp: 'item', 'item.year >=1930'
+   | where_exp: 'item', 'item.year < 1940' %}
+<h2>1930s</h2>
+{% include timeline-list.html posts=thirties %}
+
 {% assign sixties = posts | where_exp: 'item', 'item.year >= 1960'
    | where_exp: 'item', 'item.year < 1970' %}
 <h2>1960s</h2>
