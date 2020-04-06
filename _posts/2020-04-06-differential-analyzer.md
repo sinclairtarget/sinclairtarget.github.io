@@ -1,6 +1,6 @@
 ---
 title: How to Use a Differential Analyzer (to Murder People)
-tags: ['Hardware']
+tags: ['Hardware', 'Papers']
 year: 1937
 has_math: true
 description: >
@@ -8,12 +8,12 @@ description: >
 ---
 
 A differential analyzer is a mechanical, analog computer that can solve
-differential equations. Differential analyzers aren't built or used anymore
-because even a cheap laptop can solve the same equations much faster—and can do
-it in the background while you stream the new season of Westworld on HBO.
-Before the invention of digital computers though, differential analyzers
-allowed mathematicians to perform calculations that would not have been
-practical otherwise.
+differential equations. Differential analyzers aren't used anymore because even
+a cheap laptop can solve the same equations much faster—and can do it in the
+background while you stream the new season of Westworld on HBO. Before the
+invention of digital computers though, differential analyzers allowed
+mathematicians to make calculations that would not have been practical
+otherwise.
 <!--more-->
 
 It is hard to see today how a computer made out of anything other than digital
@@ -29,91 +29,6 @@ War.
 To understand how differential analyzers could do all this, you will need to
 know what differential equations are. Forgotten what those are? That's okay,
 because I had too.
-
-<!--
-If you have a very large gun, you can kill a lot of people. That seems to have
-been a main lesson of the First World War, in which, if Wikipedia is to be
-believed, many more soldiers were killed by artillery fire than by small arms
-fire.
-
-I can buy that, because it's easy to grasp how a 15-pound shell full of
-explosive, shot from something like the American [3-inch M1902 field
-gun](https://en.wikipedia.org/wiki/3-inch_M1902_field_gun) at an absurd
-velocity, is guaranteed to do fatal damage if it falls on your head. Of course,
-it does have to fall on your head and not in an empty field a mile away.
-Making this happen is more difficult than you might think—it is so
-difficult that the lethality of very large guns owes a great deal to work done
-by some of the early 20th century's best mathematicians and to the fact that
-computers were just then being invented to help them automate complicated
-calculations.
-
-To appreciate the problem, imagine that the year is 1918 and you are a US Army
-field artillery officer with a large walrus mustache. You have recently arrived
-at the Western Front, where you have been given command of an artillery piece.
-Considering the alternatives, it's not a terrible job. You could always get
-blown into little bits of gore by German counter-battery fire, but otherwise
-you are far enough behind the lines that you will probably escape getting
-gassed or bayonneted. Hooray!
-
-You are however expected to be able to shoot the very large gun under your
-command at the enemy and _hit_ them, even if they are miles away. If you've
-been ordered to shell a particular target, you obviously need to turn your gun
-to face that target, but you also need to decide how much to elevate the barrel
-of your gun. Elevate it too little and your shells will drop short; elevate it
-too much and your shells will sail over the target. Get it wrong too many times
-and they might have more use for you running messages up to the forward trench.
-
-Mercifully, the Army has published many guides on how to handle artillery
-pieces. You have one of them, [_Gunnery and Explosives for Field Artillery
-Officers_](https://archive.org/details/gunneryexplosive00unitrich), with you.
-The book includes, among other chapters and an appendix explaining the Greek
-alphabet, a chapter titled "The Trajectory in Vacuo," a chapter titled "Rapid
-Calculation of the Elements of the Trajectory," and a chapter titled "Accuracy
-of Fire and Causes Affecting It." The book also includes something called a
-range table. The range table is a marvelous reference that tells you, for any
-given range, what the angle of elevation should be for your gun. The range
-table makes your job as straightforward as just estimating how far away the
-enemy position is, something you are quickly getting good at.
-
-But how does the Army produce a range table? If you spare a moment to think
-about it next time you are face-down in the mud getting shelled, you might
-realize that it is probably a lot of work. Not only must the range table list
-the appropriate angle of elevation for lots of different ranges, but a unique
-range table would have to be produced for every combination of gun and shell
-type.
-
-Producing range tables was indeed a lot of work. During the First World War,
-they could only be produced very slowly or very inaccurately. Producing a range
-table by empirical observation alone (i.e. by firing a gajillion rounds at an
-artillery proving ground) was expensive, so a mathematical theory was needed
-that could turn a small number of observed firings into a complete range table.
-Mathematicians wrote entire textbooks about the problem after the war, but the
-theories proposed were complex enough that endless calculations had to be
-done to produce a single range table. By the time the United States entered the
-Second World War, the number of calculations required had grown so immense that
-the Army could not produce range tables fast enough to accompany the weaponry
-it was shipping to Europe. This led the Army to fund the construction of ENIAC,
-the world's first (depending on your defintions) electronic, digital computer,
-which was able to calculate range tables automatically at high speed.
-
-But the range table problem is tied to the early history of computing in more
-ways than just that one, because the US Army was using computers to produce
-range tables even before the construction of ENIAC. You might think here that I
-must be talking about human computers—that's not what I mean, though the Army
-did use a warehouse full of women to do range table calculations during the
-Second World War. What I am talking about is that, before
-ENIAC, which after all was only up and running after the war, the US Army did
-range table calculations using a mechanical, _analog_ computer called the
-differential analyzer. That this analog computer was useful—it made
-calculations possible that would have been hard or impossible to do by
-hand—tells us a lot about the surprising capability of analog computers. It
-also serves as a reminder that automated computation is a powerful idea that
-encompasses more than just what can be accomplished with digital circuitry.
-
-To understand how the differential analyzer could help produce a range table,
-you will need to know what differential equations are. Forgotten what those
-are? That's okay, because I had too.
--->
 
 ## Differential Equations
 Differential equations are something you might first encounter in the final few
@@ -144,7 +59,7 @@ to come up with a function that fully describes the distribution of heat
 throughout an object given only a time $$t$$, but reasoning about how heat
 diffuses from one time to the next is less likely to turn your brain into
 soup—the hot bits near lots of cold bits will probably get colder, the cold
-bits near lots of hot bits will probably get hotter, etc. The heat equation,
+bits near lots of hot bits will probably get hotter, etc. So the heat equation,
 though it is much more complicated than the examples in the last paragraph,
 is likewise just a description of rates of change. It describes how the
 temperature of any one point on the object will change over time given how its
@@ -152,7 +67,7 @@ temperature differs from the points around it.
 
 Let's consider another example that I think will make all of this more
 concrete. If I am standing in a vacuum and throw a tennis ball straight up,
-will it come back down before I asphixiate? This kind of question, posed less
+will it come back down before I asphyxiate? This kind of question, posed less
 dramatically, is the kind of thing I was asked in high school physics class,
 and all I needed to solve it back then were some basic Newtonian equations of
 motion. But let's pretend for a minute that I have forgotten those equations
@@ -189,7 +104,7 @@ is that the differential equation is telling us that there is some function out
 there whose second derivative is the constant $$-g$$; we want to find that
 function because it will give us the height of the ball at any given time. This
 differential equation happens to be an easy one to solve. By doing so, we can
-rederive the basic equations of motion that I had forgotten and easily
+re-derive the basic equations of motion that I had forgotten and easily
 calculate how long it will take the ball to come back down.
 
 But most of the time differential equations are hard to solve. Sometimes they
@@ -201,11 +116,11 @@ can easily write a little for-loop, perhaps in Python, that iterates through
 my problem second by second and tells me what the velocity will be at any given
 second $$t$$ after the initial time. Once I've done that, I could tweak my
 for-loop so that it also uses the calculated velocity to update the height of
-the ball on each iteration. Now I can run my simulation and figure out when the
-ball will come back down. My simulation won't be perfectly accurate, but I can
-decrease the size of the time step if I need more accuracy. All I am trying to
-accomplish anyway is to figure out if the ball will come back down while I am
-still alive.
+the ball on each iteration. Now I can run my Python simulation and figure out
+when the ball will come back down. My simulation won't be perfectly accurate,
+but I can decrease the size of the time step if I need more accuracy. All I am
+trying to accomplish anyway is to figure out if the ball will come back down
+while I am still alive.
 
 This is the numerical approach to solving a differential equation. It is how
 differential equations are solved in practice in most fields where they arise.
@@ -263,13 +178,13 @@ The speed at which the wheel turns will depend on how far from the center of
 the disc the wheel is positioned. The inner parts of the disc, of course, are
 rotating more slowly than the outer parts. The wheel stays fixed where it is,
 but the disc is mounted on a carriage that can be moved back and forth in one
-direction, which has the effect of repositioning the wheel relative to the
-center of the disc. Now this is the key to how the integrator works: The
-position of the disc is driven by the input function to the integrator. The
-output is determined by the rotation of the small wheel. So your input function
-drives the rate of change of your output function and you have just transformed
-the derivative of some function into the function itself—which is what we call
-integration!
+direction, which repositions the wheel relative to the center of the disc. Now
+this is the key to how the integrator works: The position of the disc carriage
+is driven by the input function to the integrator. The output from the
+integrator is determined by the rotation of the small wheel. So your input
+function drives the rate of change of your output function and you have just
+transformed the derivative of some function into the function itself—which is
+what we call integration!
 
 If that explanation does nothing for you, seeing a mechanical integrator in
 action really helps. The principle is surprisingly simple and there is no way
@@ -285,11 +200,12 @@ _A nice screenshot of my visualization, but you should check out the real
 thing!_
 
 So we have a component that can do integration for us, but that alone is not
-enough to solve a differential equation. To explain the full process to
-you, I'm going to use an example that Bush offers himself, which also happens
-to be essentially the same example we contemplated in our earlier discussion of
-differential equations. (This was a happy accident!) Bush introduces the
-following differential equation to represent the motion of a falling body:
+enough to solve a differential equation. To explain the full process to you,
+I'm going to use an example that Bush offers himself in his 1931 paper, which
+also happens to be essentially the same example we contemplated in our earlier
+discussion of differential equations. (This was a happy accident!) Bush
+introduces the following differential equation to represent the motion of a
+falling body:
 
 $$
 \frac{d^2x}{dt^2} = -k\,\frac{dx}{dt} - g
@@ -297,12 +213,12 @@ $$
 
 This is the same equation we used to model the motion of our tennis ball, only
 Bush has used $$x$$ in place of $$h$$ and has added another term that accounts
-for how air resistance will deccelerate the ball. This new term describes the
+for how air resistance will decelerate the ball. This new term describes the
 effect of air resistance on the ball in the simplest possible way: The air will
 slow the ball's velocity at a rate that is proportional to its velocity
 (the $$k$$ here is some proportionality constant whose value we don't really
 care about). So as the ball moves faster, the force of air resistance will be
-stronger, further deccelerating the ball.
+stronger, further decelerating the ball.
 
 To configure a differential analyzer to solve this differential equation, we
 have to start with what Bush calls the "input table." The input table is just a
@@ -313,14 +229,14 @@ trace out the function using a pointer connected to the rest of the machine. In
 this case, though, our input is just the constant $$g$$, so we only have
 to move the pointer to the right value and then leave it there.
 
-What about the other variables $$x$$ and $$t$$? The $$x$$ variable is
-our output as it represents the height of the ball. It will be
-plotted on graphing paper placed on the output table, which is similar to the
-input table only the pointer is a pen and is driven by the machine. The $$t$$
-variable should do nothing more than advance at a steady rate. (In our Python
-simulation from earlier, we just incremented $$t$$ in a loop.) So the $$t$$
-variable comes from the differential analyzer's motor, which kicks off the
-whole process by rotating the rod connected to it at a constant speed.
+What about the other variables $$x$$ and $$t$$? The $$x$$ variable is our
+output as it represents the height of the ball. It will be plotted on graphing
+paper placed on the output table, which is similar to the input table only the
+pointer is a pen and is driven by the machine. The $$t$$ variable should do
+nothing more than advance at a steady rate. (In our Python simulation of the
+tennis ball problem as posed earlier, we just incremented $$t$$ in a loop.) So
+the $$t$$ variable comes from the differential analyzer's motor, which kicks
+off the whole process by rotating the rod connected to it at a constant speed.
 
 Bush has a helpful diagram documenting all of this that I will show you in a
 second, but first we need to make one more tweak to our differential equation
@@ -346,11 +262,13 @@ The motor drives the very top rod labeled $$t$$. (Interestingly, Bush referred
 to these horizontal rods as "buses.")
 
 That leaves two components unexplained. The box with the little $$k$$ in it is
-a multiplier. It takes the rotation of the rod labeled $$\frac{dx}{dt}$$ and
-scales it up or down using a gear ratio. The box with the $$\sum$$ symbol is an
-adder. It uses a clever arrangement of gears to add the rotations of two rods
-together to drive a third rod. These extra components ensure that the machine
-can flexibly simulate equations with all kinds of terms and coefficients.
+a multiplier respresnting our proportionality constant $$k$$. It takes the
+rotation of the rod labeled $$\frac{dx}{dt}$$ and scales it up or down using a
+gear ratio. The box with the $$\sum$$ symbol is an adder. It uses a clever
+arrangement of gears to add the rotations of two rods together to drive a third
+rod. We need it since our equation involves the sum of two terms. These extra
+components available in the differential analyzer ensure that the machine can
+flexibly simulate equations with all kinds of terms and coefficients.
 
 I find it helpful to reason in ultra-slow motion about the cascade of cause and
 effect that plays out as soon as the motor starts running. The motor
@@ -374,21 +292,22 @@ begins to run.
 Once we've done that, the rotation of rod $$t$$ propagates through the whole
 system. Physically, a lot of things start rotating at the same time, but
 we can think of the rotation going first to integrator II, which combines it
-with the acceleration expression calculated based on $$g$$ to integrate and get
-the result $$\frac{dx}{dt}$$ representing the velocity of the ball. That in
-turn is used as input to integrator I, whose disc is displaced by the value
-$$\frac{dx}{dt}$$. The output from integrator I is our final output $$x$$,
-which gets routed directly to the output table.
+with the acceleration expression calculated based on $$g$$ and then integrates
+it to get the result $$\frac{dx}{dt}$$. This represents the velocity of the
+ball. The velocity is in turn used as input to integrator I, whose disc is
+displaced so that the output wheel rotates at the rate $$\frac{dx}{dt}$$. The
+output from integrator I is our final output $$x$$, which gets routed directly
+to the output table.
 
 One confusing thing I've glossed over is that there is a cycle in the machine:
 Integrator II takes as an input the rotation of the rod labeled
 $$(k\,\frac{dx}{dt} + g)$$, but that rod's rotation is determined in part by
-the output from integrator I. This might make you feel queasy, but there is
-no physical issue here—everything is rotating at once. If anything, we should
-expect to see cycles like this, since differential equations often describe
-rates of change in a function as a function of the function itself. (In this
-example, the acceleration, which is the rate of change of velocity, depends on
-the velocity.)
+the output from integrator II itself. This might make you feel queasy, but
+there is no physical issue here—everything is rotating at once. If anything, we
+should not be surprised to see cycles like this, since differential equations
+often describe rates of change in a function as a function of the function
+itself. (In this example, the acceleration, which is the rate of change of
+velocity, depends on the velocity.)
 
 With everything correctly configured, the output we get is a nice graph,
 charting both the position and velocity of our ball over time. This graph is on
@@ -402,28 +321,28 @@ output by our earlier Python simulation of a falling ball: where the ball is at
 any given time. It can be used to answer any practical question you might have
 about the problem.
 
-I hope you can appreciate now what is so preposterously cool about this
-machine. A differential analyzer is a complicated thing, but it fundamentally
-involves nothing more than rotating rods and gears. You don't have to be an
-electrical engineer or know how to fabricate a microchip to understand all the
-physical processes involved. And yet the machine does calculus! It solves
-differential equations that you never could on your own. The differential
-analyzer demonstrates that the key material required for the construction of a
-useful computing machine is not silicon but human ingenuity.
+The differential analyzer is a preposterously cool machine. It is complicated,
+but it fundamentally involves nothing more than rotating rods and gears. You
+don't have to be an electrical engineer or know how to fabricate a microchip to
+understand all the physical processes involved. And yet the machine does
+calculus! It solves differential equations that you never could on your own.
+The differential analyzer demonstrates that the key material required for the
+construction of a useful computing machine is not silicon but human ingenuity.
 
 ## Murdering People
 Human ingenuity can serve purposes both good and bad. As I have mentioned, the
 highest-profile use of differential analyzers historically was to calculate
 artillery range tables for the US Army. To the extent that the Second World War
 was the "Good Fight," this was probably for the best. But there is also no
-getting past the fact that differential analyzers hepled to make very large
+getting past the fact that differential analyzers helped to make very large
 guns better at killing lots of people. And kill lots of people they did—if
 Wikipedia is to be believed, more soldiers were killed by artillery than small
 arms fire during the Second World War.
 
 I will get back to the moralizing in a minute, but just a quick detour here to
 explain why calculating range tables was hard and how differential analyzers
-helped. A range table tells the artilleryman operating a gun how high to
+helped, because it's nice to see how differential analyzers were applied to a
+real problem. A range table tells the artilleryman operating a gun how high to
 elevate the barrel to reach a certain range. One way to produce a range table
 might be just to fire that particular kind of gun at different angles of
 elevation many times and record the results. This was done at proving grounds
@@ -447,30 +366,30 @@ weight, diameter, and shape of the projectile, the prevailing wind, the
 altitude, the atmospheric density, and the rotation of the earth[^1].
 
 So the equations are complicated, but they are still differential equations
-that a differential analyzer can solve numerically. Differential analyzers were
-put to work solving ballistics equations at the Aberdeen Proving Ground in
-1935, where they dramatically sped up the process of calculating range
-tables.[^2] Nevertheless, during the Second World War, the demand for range
-tables grew so quickly that the US Army could not calculate them fast enough to
-accompany all the weaponry being shipped to Europe. This eventually led the
-Army to fund the ENIAC project at the University of Pennsylvania, which,
-depending on your definitions, produced the world's first digital computer.
-ENIAC could, through rewiring, run any program, but it was constructed
-primarily to perform range table calculations many times faster than could be
-done with a differential analyzer.
+that a differential analyzer can solve numerically in the way that we have
+already seen. Differential analyzers were put to work solving ballistics
+equations at the Aberdeen Proving Ground in 1935, where they dramatically sped
+up the process of calculating range tables.[^2] Nevertheless, during the Second
+World War, the demand for range tables grew so quickly that the US Army could
+not calculate them fast enough to accompany all the weaponry being shipped to
+Europe. This eventually led the Army to fund the ENIAC project at the
+University of Pennsylvania, which, depending on your definitions, produced the
+world's first digital computer. ENIAC could, through rewiring, run any program,
+but it was constructed primarily to perform range table calculations many times
+faster than could be done with a differential analyzer.
 
-Given that the range table problem played a motivating role in so much of the
-early history of computing, perhaps it's unfair to single out the differential
-analyzer for moral hand-wringing. The differential analyzer isn't uniquely
-compromised by its military applications—the entire field of computing, during
-the Second World War and well afterward, advanced because of the endless
-funding being thrown at it by the United States military.
+Given that the range table problem drove much of the early history of computing
+even apart from the differential analyzer, perhaps it's unfair to single out
+the differential analyzer for moral hand-wringing. The differential analyzer
+isn't uniquely compromised by its military applications—the entire field of
+computing, during the Second World War and well afterward, advanced because of
+the endless funding being thrown at it by the United States military.
 
-Anyway, I think the more interesting lesson here is what the differential
-analyzer teaches us about the nature of computing. I am surprised that the
+Anyway, I think the more interesting legacy of the differential analyzer is
+what it teaches us about the nature of computing. I am surprised that the
 differential analyzer can accomplish as much as it can; my guess is that you
 are too. It is easy to fall into the trap of thinking of computing as the realm
-of what can be realized with very fast digital circuits. In reality, computing
+of what can be realized with very fast digital circuits. In truth, computing
 is a more abstract process than that, and electronic, digital circuits are just
 what we typically use to get it done. In his paper about the differential
 analyzer, Vannevar Bush suggests that his invention is just a small
@@ -478,5 +397,11 @@ contribution to "the far-reaching project of utilizing complex mechanical
 interrelationships as substitutes for intricate processes of reasoning." That
 puts it nicely.
 
-[^1]: Artillerymen and mathematicians.
-[^2]: FTaB history
+{% include subscribe.html %}
+
+_Previously on TwoBitHistory..._
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you worry that your children are &quot;BBS-ing&quot;? Do you have a neighbor who talks too much about his &quot;door games&quot;?<br><br>In this VICE News special report, we take you into the seedy underworld of bulletin board systems:<a href="https://t.co/hBrKGU2rfB">https://t.co/hBrKGU2rfB</a></p>&mdash; TwoBitHistory (@TwoBitHistory) <a href="https://twitter.com/TwoBitHistory/status/1224014531778826240?ref_src=twsrc%5Etfw">February 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[^1]: Alan Gluchoff. "Artillerymen and Mathematicians: Forest Ray Moulton and Changes in American Exterior Ballistics, 1885-1934." Historia Mathematica, vol. 38, no. 4, 2011, pp. 506–547., <https://www.sciencedirect.com/science/article/pii/S0315086011000279>.
+[^2]: Karl Kempf. "Electronic Computers within the Ordnance Corps," 1961, accessed April 6, 2020, <https://ftp.arl.army.mil/~mike/comphist/61ordnance/index.html>.
