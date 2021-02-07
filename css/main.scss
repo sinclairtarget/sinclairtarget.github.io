@@ -46,6 +46,10 @@ h1 + p, h2 + p, h3 + p {
     margin-top: 0;
 }
 
+p + h2, p + h3 {
+    margin-top: 1em;
+}
+
 h1 {
     font-size: 3.8rem;
     line-height: 1.2;
@@ -178,4 +182,11 @@ footer {
     img {
         max-width: 200px;
     }
+}
+
+hr.thematic {
+    margin: 40px auto;
+    width: 120px;
+    border: none;
+    border-bottom: 1px solid black;
 }
