@@ -198,12 +198,12 @@ idea. [RFC 801](https://tools.ietf.org/html/rfc801), for example, talks about
 transitioning the ARPANET from "NCP" to "TCP" in a way that makes it sound like
 NCP is an ARPANET protocol equivalent to TCP. But there has never been a
 "Network Control Protocol" for the ARPANET (even if [Encyclopedia Britannica
-think so](https://www.britannica.com/topic/ARPANET)), and I suspect people have
-mistakenly unpacked "NCP" as "Network Control Protocol" when really it stands
-for "Network Control Program." The Network Control Program was the kernel-level
-program running in each host responsible for handling network communication,
-equivalent to the TCP/IP stack in an operating system today. "NCP", as it's
-used in RFC 801, is a metonym, not a protocol.
+thinks so](https://www.britannica.com/topic/ARPANET)), and I suspect people
+have mistakenly unpacked "NCP" as "Network Control Protocol" when really it
+stands for "Network Control Program." The Network Control Program was the
+kernel-level program running in each host responsible for handling network
+communication, equivalent to the TCP/IP stack in an operating system today.
+"NCP", as it's used in RFC 801, is a metonym, not a protocol.
 
 ## A Comparison with TCP/IP
 The ARPANET protocols were all later supplanted by the TCP/IP protocols (with
