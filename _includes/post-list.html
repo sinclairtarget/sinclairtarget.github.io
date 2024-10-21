@@ -1,6 +1,6 @@
 <ul class="index">
   {% for post in include.posts %}
-    <li>
+    <li data-cb-module-name="post-position-{{ forloop.index }}">
       {% include post-header.html post=post %}
       <article>
         {{ post.excerpt }}
