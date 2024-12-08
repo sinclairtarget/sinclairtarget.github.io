@@ -122,8 +122,8 @@ if you were truly desperate you _could_ circumvent the 80-character limit,
 though whether a two-card statement counts as one long line or just two is
 unclear. FORTRAN cards were similar but had different fields.  Universities
 often watermarked the punch cards handed out by their computing centers, while
-other kinds of designs were introduced for special occasions like the [1976
-bicentennial](http://www.jkmscott.net/data/Punched%20card%20013.jpg).
+other kinds of designs were introduced for special occasions like the 1976
+bicentennial.
 
 Ultimately the cards had to be read and understood by a computer. IBM sold a
 System/360 peripheral called the IBM 2540 which could read up to 1000 cards per
